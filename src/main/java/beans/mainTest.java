@@ -25,6 +25,7 @@ public class mainTest {
         for (Client c:list2){
             System.out.println(c);
         }
+        //
 
 
 
