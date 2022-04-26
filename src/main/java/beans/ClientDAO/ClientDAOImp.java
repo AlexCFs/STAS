@@ -14,13 +14,14 @@ public class ClientDAOImp implements ClientDAO {
         try{
             String nomUtilisateur ="root";
             String motDePass = "pass";
-            String nomBase="";
+            String nomBase="stas";
 
             String connec ="jdbc:mariadb://localhost:3306/";
             connec += nomBase +"?user="+nomUtilisateur;
             connec += "&password="+motDePass;
 
             con = DriverManager.getConnection(connec);
+            System.out.println(con);
 
 
 

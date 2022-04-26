@@ -22,9 +22,7 @@ public class mainTest {
         ClientDAO dao2=new ClientDAOImp();
 
 
-        ArrayList<Client> list2=dao2.findAll();
-        for (Client c:list2){
-            System.out.println(c);
+       dao2.insert(c1);
         }
         //
 
@@ -32,4 +30,3 @@ public class mainTest {
 
     }
 
-}
