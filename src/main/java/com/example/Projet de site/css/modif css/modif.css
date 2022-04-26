@@ -1,0 +1,59 @@
+
+#charriot{
+    color: white;
+    position: center;
+    float: left;
+}
+#tonton{
+    align-items: center;
+    text-align: center;
+    width: 30%;
+    height:auto;
+    position: center;
+    background-color: #0a53be;
+}
+.flex-around{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+
+}
+.size-lien-garantie{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 20%;
+    height: 70px;
+    padding-right: 20px;
+}
+
+/*Pour La video*/
+.block {
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    /*background-color: red;*/
+    overflow: hidden;
+}
+
+.block video {
+    position: absolute;
+    min-width: 100%;
+    min-height: 100%;
+    top: 50%;
+    left: 50%;
+    z-index: -100;
+    transform: translate(-50%, -50%);
+}
+
+#carouselExampleDark {
+    width: 50%;
+    margin: 0 auto;
+    margin-top: 120px;
+}
+
+.carousel-item img {
+    width: 100%;
+    height: auto;
+}
