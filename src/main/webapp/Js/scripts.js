@@ -4,10 +4,11 @@ const nbPages = pages.length //nombres pages du formulaire d'inscription
 let pageActive = 1
 
 
+
+
 window.onload = () => {
     //Affichage première page formulaire
     document.querySelector(".page").style.display = "initial"
-
 
     //Affichage du numéro des pages+parcours
     pages.forEach((page, index) => {
