@@ -17,6 +17,7 @@ window.onload = () => {
         element.classList.add("page-num")
         element.id = "num" + (index + 1)
         if (pageActive == index + 1) {
+
             element.classList.add("active")
         }
         element.innerHTML = index + 1
