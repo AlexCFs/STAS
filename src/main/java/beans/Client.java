@@ -3,6 +3,7 @@ package beans;
 public class Client {
     //choses à faire: ajouter d'autres paramètres ex: password, telephone
     //n'oubliez pas d'ajouter des get et set pour ces derniers et modifier aussi le constructeur
+    //adapter ton tableau
 
     private int cid ;
     private String name;
