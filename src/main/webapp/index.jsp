@@ -9,5 +9,11 @@
 </h1>
 <br/>
 <a href="hello-servlet">Hello Servlet</a>
+<br><br>
+<a href="creerCompte.jsp">lienInscription</a>
+<br><br>
+<a href="testerConnexion.jsp">lienTesterConnexion</a>
 </body>
+
+
 </html>
