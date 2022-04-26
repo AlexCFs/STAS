@@ -13,6 +13,15 @@ main {
     left: 50%;
     transform: translate(-50%, -50%);
 }
+select{
+    display: block;
+    width: 15%;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    border: 1px solid rgb(189, 186, 186);
+    border-radius: 5px;
+}
+
 
 input {
     display: block;
@@ -65,4 +74,7 @@ header {
     color: #f7faff;
     transition: all 0.1s ease-in-out;
     text-decoration: none;
+}
+#page2{
+    justify-content: right;
 }
