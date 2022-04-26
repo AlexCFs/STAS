@@ -14,7 +14,7 @@ public class ClientDAOImp implements ClientDAO {
         try{
             String nomUtilisateur ="root";
             String motDePass = "pass";
-            String nomBase="sys";
+            String nomBase="";
 
             String connec ="jdbc:mariadb://localhost:3306/";
             connec += nomBase +"?user="+nomUtilisateur;
@@ -83,14 +83,20 @@ public class ClientDAOImp implements ClientDAO {
         ResultSet rs= null;
         try {
             stat = con.createStatement();
-            String requete = "SELECT * FROM client";
+            String requete = "SELECT * FROM utilisateur";
             rs = stat.executeQuery(requete);
             while (rs.next()){
-                int cid= rs.getInt("cid");
-                String name= rs.getString("name");
+                int id= rs.getInt("id");
+                String nom= rs.getString("nom");
+                String prenom= rs.getString("prenom");
+                String telephone= rs.getString("telephone");
+                String adresse= rs.getString("adresse");
+                String codePostal= rs.getString("codePostal");
+                String ville= rs.getString("ville");
                 String email= rs.getString("email");
+                String mdp= rs.getString("mdp");
 
-                Client c= new Client(cid, name, email);
+                Client c= new Client(id, nom,  prenom, telephone, adresse, codePostal, ville, email, mdp);
                 list.add(c);
 
             }
@@ -125,7 +131,7 @@ public class ClientDAOImp implements ClientDAO {
         int result =0;
         try {
             stat = con.createStatement();
-            String sql = "INSERT INTO client VALUES (DEFAULT ,'"+c.getName()+"','"+c.getEmail()+"')";
+            String sql = "INSERT INTO utilisateur VALUES (DEFAULT ,'"+c.getNom()+"','"+c.getPrenom()+"','"+c.getTelephone()+"','"+c.getAdresse()+"','"+c.getCodePostal()+"','"+c.getVille()+"','"+c.getEmail()+"','"+c.getMdp()+"')";
 
             stat.executeUpdate(sql);
 

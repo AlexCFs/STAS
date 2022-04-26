@@ -2,6 +2,7 @@ package beans;
 
 import beans.ClientDAO.ClientDAO;
 import beans.ClientDAO.ClientDAOImp;
+
 import java.util.ArrayList;
 
 public class mainTest {
@@ -16,7 +17,7 @@ public class mainTest {
         }
         //ça marche bien
 
-        Client c1=new Client(3, "Paul", "paullll@gmail.com");
+        Client c1=new Client(1,"dupont","pierre","0784562857","rue vaugerard","75000","paris","gregrgr@gmail.com","fefe");
         //le cid, on s'en fiche, car dans la database, c'est généré automatiquement
         ClientDAO dao2=new ClientDAOImp();
 
