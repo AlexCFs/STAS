@@ -15,7 +15,7 @@ main {
 }
 select{
     display: block;
-    width: 20%;
+    width: 15%;
     margin-top: 5px;
     margin-bottom: 5px;
     border: 1px solid rgb(189, 186, 186);
@@ -25,7 +25,7 @@ select{
 
 input {
     display: block;
-    width: 50%;
+    width: 100%;
     margin-top: 5px;
     margin-bottom: 5px;
     border: 1px solid rgb(189, 186, 186);
@@ -74,4 +74,7 @@ header {
     color: #f7faff;
     transition: all 0.1s ease-in-out;
     text-decoration: none;
+}
+#page2{
+    justify-content: right;
 }
