@@ -21,10 +21,6 @@ public class CreationCompte extends HttpServlet {
         String e= request.getParameter("email");
         String m= request.getParameter("mdp");
 
-        PrintWriter out = response.getWriter();
-        out.println("<html><body>");
-        out.println("<h1>" + n + "</h1>");
-        out.println("</body></html>");
 
         request.setAttribute("nom" , n);
         request.setAttribute("prenom" , p);
