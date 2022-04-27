@@ -9,11 +9,14 @@
 <html>
 <head>
     <title>StockageDesProduits</title>
+    <link rel="stylesheet" href="Css/Boostrap_css/bootstrap.min.css">
+    <link rel="stylesheet" href="Css/modif_css/modif.css">
+
 </head>
 <body>
 <h1>Le stockage des produits</h1>
 <br>
-<table border="1px" align="center" width="50%">
+<table border="1px" align="center" width="50%" id="produit">
     <tr>
         <th>pid</th>
         <th>categorie</th>
@@ -63,14 +66,31 @@
             e.printStackTrace();
 
         }
-
-
-
     %>
 
 </table>
+<%--- ajouter 3 boutons pour effectuer des manipulations
+---%>
+<a href="ajoutProduitForm.jsp">
+    <button class="btn" type="button">ajouter </button>
+</a>
+<a href="*">
+    <button class="btn" type="button" onclick="fctSupprimer();">supprimer</button>
+</a>
+
+<a href="---">
+    <button class="btn" type="button">modifier</button>
+</a>
+
+<script>
+    function fctSupprimer(){
+        var pid= prompt("veuillez entrer le pid de produit que vous souhaites supprimer");
+        alert ("le produit dont pid =" + pid+"va être supprimé");
+        <jsp:forward page="/AjoutProduit"></jsp:forward>
+    }
 
 
+</script>
 
 
 </body>
