@@ -36,7 +36,7 @@ public class Connexion extends HttpServlet {
                 out.println("<html><body>");
                 out.println("<h1>" +message1+ "</h1>");
                 out.println("</body></html>");
-
+                response.sendRedirect("admin.jsp");
             }
             else{
 
