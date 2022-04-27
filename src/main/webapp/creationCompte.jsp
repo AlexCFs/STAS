@@ -23,6 +23,7 @@
     String email= (String)request.getAttribute("email");
     String mdp= (String)request.getAttribute("mdp");
 
+    System.out.println(nom + prenom);
     //ici, on a déjà récupérer deux valeurs, donc il faut les injecter dans la database maintenant
 
     Client c1= new Client();
