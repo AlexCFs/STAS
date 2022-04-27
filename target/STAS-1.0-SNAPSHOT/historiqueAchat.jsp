@@ -11,45 +11,49 @@
     <title>StockageDesProduits</title>
 </head>
 <body>
-<h1>Le stockage des produits</h1>
+<h3>historique d'achat</h3>
 <br>
 <table border="1px" align="center" width="50%">
     <tr>
-        <th>pid</th>
-        <th>produit</th>
+        <th>date d'achat</th>
+        <th>nom d'article</th>
         <th>prix</th>
         <th>quantité</th>
-        <th>manipuler</th>
+        <th>Somme totale</th>
     </tr>
     <tr>
-        <td>1</td>
+        <td>2022-01-20</td>
         <td>Chaussettes</td>
         <td>2€</td>
-        <td>1500</td>
-        <td>
-            <a href="delete.jsp"> delete </a>
-            <a href="modify.jsp"> modify </a>
+        <td>2</td>
+        <td>4€</td>
 
-        </td>
     </tr>
     <tr>
-        <td>2</td>
+        <td>2021-11-30</td>
         <td>robe rouge</td>
         <td>200€</td>
-        <td>500</td>
-        <td>
-            <a href="delete.jsp"> delete </a>
-            <a href="modify.jsp"> modify </a>
+        <td>1</td>
+        <td>200€</td>
+    </tr>
 
-        </td>
+    <tr>
+        <td>2021-10-04</td>
+        <td>Bracelet femme</td>
+        <td>130.50€</td>
+        <td>4</td>
+        <td>522€</td>
+    </tr>
 
+    <tr>
+        <td>2021-08-10</td>
+        <td>livre de grammaire</td>
+        <td>20.20€</td>
+        <td>10</td>
+        <td>202.20€</td>
     </tr>
 
 </table>
-
-<p> Si vous voulez ajouter un article dans le stockage, veuillez cliquer sur le lien</p>
-<a href="addProduit.jsp">ajouter un produit</a>
-
 
 </body>
 </html>
