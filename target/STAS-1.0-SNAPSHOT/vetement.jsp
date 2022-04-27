@@ -13,18 +13,44 @@
 <body>
 
 
-    <div class="row">
-        <div class="col">
-            <img src="images/robe%203.jfif" class="img-thumbnail" alt="...">
-        </div>
-        <div class="col">
-            <img  src="images/robe%204.jfif" class="img-thumbnail" alt="...">
-        </div>
-        <div class="col">
-            <img  src="images/robe%205.jfif" class="img-thumbnail" alt="...">
-        </div>
+<div class="flex-column-around cardib">
+    <img src="images/robe%203.jfif" class="img-thumbnail" alt="...">
+    <div class="bouton-chene"></div>
+    <p class="dorer">Une jolie robe d'allaitement </p>
+    <div class="flex-column-around div-list-deroulante">
+        <label for="couleur" class="dorer"> choisissez la couleur</label>
+        <select name="couleur" id="couleur" autofocus></select>
     </div>
+    <a href="#">
+        <button class="btn" type="button">Acheter</button>
+    </a>
 
+</div>
+<div class="flex-column-around cardib">
+    <img src="images/robe%204.jfif" class="img-thumbnail" alt="...">
+    <div class="bouton-chene"></div>
+    <p class="dorer"> Robe avec tulle à col carré évasé </p>
+    <div class="flex-column-around div-list-deroulante">
+        <label for="couleur" class="dorer"> choisissez la couleur</label>
+        <select name="couleur" id="couleur2"></select>
+    </div>
+    <a href="#">
+        <button class="btn" type="button">Acheter</button>
+    </a>
+
+</div>
+<div class="flex-column-around cardib">
+    <img src="images/robe%205.jfif" class="img-thumbnail" alt="...">
+    <div class="bouton-chene"></div>
+    <p class="dorer"> Robes femme Camaieu </p>
+    <div class="flex-column-around div-list-deroulante">
+        <label for="couleur" class="dorer"> choisissez la couleur</label>
+        <select name="couleur" id="couleur3"></select>
+    </div>
+    <a href="#">
+        <button class="btn" type="button">Acheter</button>
+    </a>
+</div>
 
 </body>
 </html>
