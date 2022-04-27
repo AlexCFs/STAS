@@ -13,6 +13,8 @@
 <a href="creerCompte.jsp">lienInscription</a>
 <br><br>
 <a href="testerConnexion.jsp">lienTesterConnexion</a>
+<br><br>
+<a href="ajoutProduitForm.jsp">lienAjoutProduct</a>
 </body>
 
 
