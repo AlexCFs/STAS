@@ -41,8 +41,15 @@
     ProduitDAO dao=new ProduitDAOImp();
     dao.insertProduct(p);
 
+    //une fois ajouté dans la base de produit, on dirige diretement dans la base de stockage.
+
+
+
 %>
-<h2> le produit est ajouté dans la database </h2>
+<h2> le produit est ajouté dans la database, veuillez vérifier </h2>
+<a href="stockageProduit.jsp">
+    <button class="btn" type="button">click on</button>
+</a>
 
 </body>
 </html>

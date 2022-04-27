@@ -25,7 +25,7 @@
     </tr>
 
     <%
-        //inialisateur, on doit se conncecter à la table base
+        //inialisation, on doit se conncecter à la table base
 
         String driverClass="org.mariadb.jdbc.Driver";
 

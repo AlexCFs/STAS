@@ -1,30 +1,36 @@
-<%@ page import="java.sql.*" %><%--
+<%@ page import="java.sql.Connection" %>
+<%@ page import="java.sql.DriverManager" %>
+<%@ page import="java.sql.Statement" %>
+<%@ page import="java.sql.ResultSet" %><%--
   Created by IntelliJ IDEA.
   User: SUN
-  Date: 26/04/2022
-  Time: 13:58
+  Date: 27/04/2022
+  Time: 21:06
   To change this template use File | Settings | File Templates.
 --%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
 <head>
-    <title>StockageDesProduits</title>
+    <title>Utilisateurs</title>
 </head>
 <body>
-<h1>Le stockage des produits</h1>
+<h1>La table des utlisateurs existants</h1>
 <br>
 <table border="1px" align="center" width="50%">
     <tr>
-        <th>pid</th>
-        <th>categorie</th>
-        <th>nom de produit</th>
-        <th>description du produit</th>
-        <th>prix</th>
-        <th>quantité</th>
+        <th>id</th>
+        <th>nom</th>
+        <th>prenom</th>
+        <th>telephone</th>
+        <th>adresse</th>
+        <th>codePostale</th>
+        <th>ville</th>
+        <th>email</th>
+        <th>mot de passe</th>
 
     </tr>
 
-    <%
+        <%
         //inialisation, on doit se conncecter à la table base
 
         String driverClass="org.mariadb.jdbc.Driver";
@@ -42,21 +48,25 @@
             Class.forName(driverClass);
             con= DriverManager.getConnection(connec);
             Statement stat= con.createStatement();
-            String sql= "SELECT * FROM produit";
+            String sql= "SELECT * FROM utilisateur";
             ResultSet rs=stat.executeQuery(sql);
             while (rs.next()){
 
     %>
     <tr>
-        <td><%=rs.getInt("idProduit") %></td>
-        <td><%=rs.getString("categorie") %></td>
-        <td><%=rs.getString("nomProduit") %></td>
-        <td><%=rs.getString("description") %></td>
-        <td><%=rs.getDouble("prix") %></td>
-        <td><%=rs.getInt("quantite") %></td>
+        <td><%=rs.getInt("id") %></td>
+        <td><%=rs.getString("nom") %></td>
+        <td><%=rs.getString("prenom") %></td>
+        <td><%=rs.getString("telephone") %></td>
+        <td><%=rs.getString("adresse") %></td>
+        <td><%=rs.getString("codePostal") %></td>
+        <td><%=rs.getString("ville") %></td>
+        <td><%=rs.getString("email") %></td>
+        <td><%=rs.getString("mdp") %></td>
+
 
     </tr>
-    <%
+        <%
             }
 
         }catch (Exception e){
@@ -64,14 +74,8 @@
 
         }
 
-
-
     %>
-
 </table>
-
-
-
 
 </body>
 </html>
