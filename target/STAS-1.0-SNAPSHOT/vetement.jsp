@@ -17,6 +17,18 @@
     <img src="images/robe%203.jfif" class="img-thumbnail" alt="...">
     <div class="bouton-chene"></div>
     <p class="dorer">Une jolie robe d'allaitement </p>
+    <h1>Description
+        Une jolie robe d'allaitement super pratique dans laquelle on se sent à l'aise !
+
+        - Robe courte d'allaitement (peu aussi se porter durant la grossesse)
+        - Manches longues
+        - Col rond
+        - Haut en maille stretch avec lien à nouer
+        - Elastique sous poitrine
+        - Bas en maille crêpée avec motif à fleurs
+        - Longueur dos : 92 cm environ
+
+        - Notre mannequin porte une taille S et mesure 1m77</h1>
     <div class="flex-column-around div-list-deroulante">
         <label for="couleur" class="dorer"> choisissez la couleur</label>
         <select name="couleur" id="couleur" autofocus></select>
