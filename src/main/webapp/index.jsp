@@ -39,7 +39,10 @@
         <p class="dorer">Mon panier</p>
     </a>
     <a href="creerCompte.jsp">
-        <button class="btn" type="button">Identifiant</button>
+        <button class="btn" type="button">Inscription</button>
+    </a>
+    <a href="testerConnexion.jsp">
+        <button class="btn" type="button">Connexion</button>
     </a>
 </section>
 <nav>
