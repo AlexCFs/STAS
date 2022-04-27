@@ -15,5 +15,4 @@
 <a href="testerConnexion.jsp">lienTesterConnexion</a>
 </body>
 
-
 </html>
