@@ -25,4 +25,11 @@ public interface ClientDAO {
     // delecte selon id
     public abstract int delete(int id);
 
+    //authentification, voir si on a un compte
+    public abstract boolean authentificationService(String username, String useremail);
+
+    //verfier si tu es client/utilisateur ou admin
+    public abstract boolean IfAdmin(Client c);
+
+
 }

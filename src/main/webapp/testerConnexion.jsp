@@ -16,12 +16,12 @@
 <body>
 <h2>tester la connection et on va créer un compte si jamais vous n'avez pas </h2>
 <p>formulaire</p>
-<form action="TesterConnextion"  method="post">
+<form action="Connexion"  method="post">
 
-    <label id="name">name :</label><br>
+    <label id="name">nom :</label><br>
     <input type="text" id="name" name="name" value=""><br>
-    <label id="email"> email : </label><br>
-    <input type="text" id="email" name="email" value="" ><br>
+    <label id="mdp"> mot de pass: </label><br>
+    <input type="text" id="mdp" name="mdp" value="" ><br>
 
     <input type="submit" value="valider"/>
     <br>

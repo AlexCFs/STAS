@@ -1,31 +1,213 @@
+/**********************general**************************/
+html,
+body {
+    margin: 0;
+    padding: 0;
+}
 
-#charriot{
+.display-none {
+    display: none;
+}
+
+.vert {
+    color: #868c4d;
+}
+
+.rouge {
+    color: red;
+}
+
+a {
     color: white;
-    position: center;
-    float: left;
 }
-#tonton{
+
+.beige {
+    color: beige;
+}
+
+.bg-beige {
+    background-color: beige;
+}
+
+.white {
+    color: white;
+}
+
+.gris {
+    color: gray;
+}
+
+.dorer {
+    color: #D5C10C;
+
+}
+
+.bg-dorer {
+    background-color: #D5C10C;
+}
+
+.btn {
+    width: 150px;
+    height: 45px;
+    border-radius: 45px;
+    cursor: pointer;
+    border: none;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: bold;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+}
+
+.btn:hover {
+    background: #D5C10C;
+    transform: translateY(-7px);
+    color: #fff;
+    box-shadow: 0px 10px 25px rgba(46, 223, 229, 0.445);
+}
+
+.flex-column-centre {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     align-items: center;
-    text-align: center;
-    width: 30%;
-    height:auto;
-    position: center;
-    background-color: #0a53be;
 }
-.flex-around{
+
+.flex-column-between {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.flex-column-around {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.flex-column-start {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.flex-centre {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.flex-around {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
     align-items: center;
-
 }
-.size-lien-garantie{
+
+.flex-start {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+/*************************************logo**********************************************/
+.logo-titre {
+    text-align: center;
+    font-family: "Lucida Calligraphy", sans-serif;
+    font-size: 3em;
+    color: #D5C10C;
+}
+
+/************************************* nav **********************************************/
+nav {
+    border-bottom: 1px solid #D5C10C;
+    border-top: 1px solid #D5C10C;
+    background-color: beige;
+}
+
+nav > div {
+    height: 50px;
+}
+
+nav > div > a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    font-size: larger;
+    color: #D5C10C;
+    width: 20%;
+    height: 50px;
+}
+
+nav > div > a:hover {
+    cursor: pointer;
+    color: #D5C10C;
+    background-color: gray;
+    color: beige;
+}
+
+h2 {
+    margin: 0;
+}
+
+/************************************* banniere accueil **********************************************/
+.image-banniere {
+    object-fit: cover;
+    width: 100%;
+    height: 50vh;
+}
+
+.far,
+.fas {
+    margin-right: 5px;
+}
+
+.garantie {
+    background-color: #D5C10C;
+    color: white;
+    height: 100px;
+    width: 80%;
+    margin-top: -35px;
+    position: absolute;
+    box-shadow: 2px 5px 5px #D5C10C;
+}
+
+.size-lien-garantie {
     display: flex;
     justify-content: center;
     align-items: center;
     width: 20%;
     height: 70px;
     padding-right: 20px;
+}
+
+.bordure-garantie {
+    border-right: 2px solid white;
+}
+
+/************************************* page accueil, carte , page produit **********************************************/
+.selection {
+    margin-top: 70px;
+    font-family: "Kunstler Script", cursive;
+}
+
+svg {
+    fill: #fecf39;
+}
+
+#blocCard {
+    margin-top: 50px;
+}
+
+.card {
+    margin: 30px;
+    background-color: beige;
+    border-radius: 20px;
+
 }
 
 /*Pour La video*/
@@ -47,13 +229,3 @@
     transform: translate(-50%, -50%);
 }
 
-#carouselExampleDark {
-    width: 50%;
-    margin: 0 auto;
-    margin-top: 120px;
-}
-
-.carousel-item img {
-    width: 100%;
-    height: auto;
-}
