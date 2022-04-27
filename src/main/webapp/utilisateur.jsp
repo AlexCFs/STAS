@@ -2,7 +2,7 @@
   Created by IntelliJ IDEA.
   User: Ferre
   Date: 27/04/2022
-  Time: 15:49
+  Time: 16:11
   To change this template use File | Settings | File Templates.
 --%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
@@ -28,9 +28,7 @@
         <!--<span id="spanQuantite"></span>-->
         <p class="dorer">Mon panier</p>
     </a>
-    <a href="ajoutProduitForm.jsp">
-        <button class="btn" type="button">Ajout de nouveau produit</button>
-    </a>
+
 </section>
 <nav>
     <div class="flex-around">
