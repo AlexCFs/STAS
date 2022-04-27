@@ -22,27 +22,38 @@ public class Connexion extends HttpServlet {
 
         ClientDAO dao=new ClientDAOImp();
         boolean result= dao.authentificationService(username, userpassword);
-        out.println("<html><body>");
-        out.println("<h1>" +result + "</h1>");
-        out.println("</body></html>");
-
-        String message1= "Connexion réussie!!";
-        String message2= "Connexion ratée!!";
+        String message1= "Connexion réussie, vous êtes admin!!";
+        String message2= "Connexion réussi, vous êtes un utilisateur";
+        String message3= "l'utilisateur n'existe pas!!";
 
 
         if (result==true){
-            out.println("<html><body>");
-            out.println("<h1>" +message1+ "</h1>");
-            out.println("</body></html>");
-            response.sendRedirect(request.getContextPath()+ "/CreationCompte");
+
+            //response.sendRedirect(request.getContextPath()+ "/CreationCompte");
+            boolean ifAdmin=dao.IfAdmin(username);
+            if(ifAdmin==true){
+                //on est admin
+                out.println("<html><body>");
+                out.println("<h1>" +message1+ "</h1>");
+                out.println("</body></html>");
+                //response.sendRedirect(request.getContextPath()+ "AjoutNouveeauProduit.jsp");
+            }
+            else{
+
+                //on est user
+                out.println("<html><body>");
+                out.println("<h1>" +message2+ "</h1>");
+                out.println("</body></html>");
+
+            }
+            //il faut modifier le chemin
         }
         else{
             out.println("<html><body>");
-            out.println("<h1>" +message2 + "</h1>");
+            out.println("<h1>" +message3 + "</h1>");
             out.println("</body></html>");
 
         }
-
     }
 
     @Override

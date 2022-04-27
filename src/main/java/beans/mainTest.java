@@ -33,10 +33,6 @@ public class mainTest {
         Produit p1=new Produit(0, "Livres", "voyager en Chine","Description666dbfddu",10.50, 250);
         daoPro1.insertProduct(p1);
 
-
-
-
-
     }
 }
 
