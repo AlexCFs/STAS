@@ -40,6 +40,8 @@
 
     ClientDAO dao=new ClientDAOImp();
     dao.insert(c1);
+
+    response.sendRedirect(request.getContextPath()+ "index.jsp");
 %>
 
 <h2> l'utilisateur est ajouté dans la base de données </h2>
