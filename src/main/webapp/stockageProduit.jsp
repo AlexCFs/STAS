@@ -30,39 +30,45 @@
     <%
         //inialisation, on doit se conncecter à la table base
 
-        String driverClass="org.mariadb.jdbc.Driver";
+        String driverClass = "org.mariadb.jdbc.Driver";
 
-        Connection con=null;
-        String nomUtilisateur ="root";
+        Connection con = null;
+        String nomUtilisateur = "root";
         String motDePass = "pass";
-        String nomBase="stas";
+        String nomBase = "stas";
 
-        String connec ="jdbc:mariadb://localhost:3306/";
-        connec += nomBase +"?user="+nomUtilisateur;
-        connec += "&password="+motDePass;
+        String connec = "jdbc:mariadb://localhost:3306/";
+        connec += nomBase + "?user=" + nomUtilisateur;
+        connec += "&password=" + motDePass;
 
         try {
             Class.forName(driverClass);
-            con= DriverManager.getConnection(connec);
-            Statement stat= con.createStatement();
-            String sql= "SELECT * FROM produit";
-            ResultSet rs=stat.executeQuery(sql);
-            while (rs.next()){
+            con = DriverManager.getConnection(connec);
+            Statement stat = con.createStatement();
+            String sql = "SELECT * FROM produit";
+            ResultSet rs = stat.executeQuery(sql);
+            while (rs.next()) {
 
     %>
     <tr>
-        <td><%=rs.getInt("idProduit") %></td>
-        <td><%=rs.getString("categorie") %></td>
-        <td><%=rs.getString("nomProduit") %></td>
-        <td><%=rs.getString("description") %></td>
-        <td><%=rs.getDouble("prix") %></td>
-        <td><%=rs.getInt("quantite") %></td>
+        <td><%=rs.getInt("idProduit") %>
+        </td>
+        <td><%=rs.getString("categorie") %>
+        </td>
+        <td><%=rs.getString("nomProduit") %>
+        </td>
+        <td><%=rs.getString("description") %>
+        </td>
+        <td><%=rs.getDouble("prix") %>
+        </td>
+        <td><%=rs.getInt("quantite") %>
+        </td>
 
     </tr>
     <%
             }
 
-        }catch (Exception e){
+        } catch (Exception e) {
             e.printStackTrace();
 
         }
@@ -72,7 +78,7 @@
 <%--- ajouter 3 boutons pour effectuer des manipulations
 ---%>
 <a href="ajoutProduitForm.jsp">
-    <button class="btn" type="button">ajouter </button>
+    <button class="btn" type="button">ajouter</button>
 </a>
 <a href="*">
     <button class="btn" type="button" onclick="fctSupprimer();">supprimer</button>
@@ -81,16 +87,6 @@
 <a href="---">
     <button class="btn" type="button">modifier</button>
 </a>
-
-<script>
-    function fctSupprimer(){
-        var pid= prompt("veuillez entrer le pid de produit que vous souhaites supprimer");
-        alert ("le produit dont pid =" + pid+"va être supprimé");
-        <jsp:forward page="/AjoutProduit"></jsp:forward>
-    }
-
-
-</script>
 
 
 </body>
