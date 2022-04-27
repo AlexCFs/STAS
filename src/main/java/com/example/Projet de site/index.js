@@ -1,2 +1,2 @@
 document.getElementById("banniere").innerHTML =
-    "<div><img class='image-banniere' src='img/presentation.jfif' alt='image banniere du site'/></div>";
+    "<div><video class='image-banniere' autoplay='autoplay' muted='' loop='infinite'  src='img/VENTE%20DE%20PRODUITS%20EN%20LIGNE.mp4'></video></div>";
