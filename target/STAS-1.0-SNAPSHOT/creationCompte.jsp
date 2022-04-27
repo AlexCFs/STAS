@@ -1,6 +1,6 @@
 <%@ page import="beans.Client" %>
-<%@ page import="beans.ClientDAO.ClientDAO" %>
-<%@ page import="beans.ClientDAO.ClientDAOImp" %><%--
+<%@ page import="ClientDAO.ClientDAO" %>
+<%@ page import="ClientDAO.ClientDAOImp" %><%--
   Created by IntelliJ IDEA.
   User: SUN
   Date: 25/04/2022
