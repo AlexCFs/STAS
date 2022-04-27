@@ -14,14 +14,14 @@
 </head>
 <body>
 <%
-    String nom =(String)request.getAttribute("nom");
-    String prenom =(String)request.getAttribute("prenom");
-    String telephone =(String)request.getAttribute("telephone");
-    String adresse =(String)request.getAttribute("adresse");
-    String codePostal =(String)request.getAttribute("codePostal");
-    String ville =(String)request.getAttribute("ville");
-    String email= (String)request.getAttribute("email");
-    String mdp= (String)request.getAttribute("mdp");
+    String nom=(String)request.getAttribute("nom");
+    String prenom=(String)request.getAttribute("prenom");
+    String telephone=(String)request.getAttribute("telephone");
+    String adresse=(String)request.getAttribute("adresse");
+    String codePostal=(String)request.getAttribute("codePostal");
+    String ville=(String)request.getAttribute("ville");
+    String email=(String)request.getAttribute("email");
+    String mdp=(String)request.getAttribute("mdp");
 
     //ici, on a déjà récupérer deux valeurs, donc il faut les injecter dans la database maintenant
 

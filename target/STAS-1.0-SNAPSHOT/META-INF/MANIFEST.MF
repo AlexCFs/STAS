@@ -1,9 +1,5 @@
 Manifest-Version: 1.0
 Created-By: IntelliJ IDEA
-<<<<<<< HEAD
 Built-By: Ferre
-=======
-Built-By: SUN
->>>>>>> 7ea39d4295a2b8b4a51a7dfad90ab56f7eba5de9
 Build-Jdk: Oracle OpenJDK version 1.8.0_321
 
