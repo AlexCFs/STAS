@@ -19,7 +19,7 @@
 <html lang="fr" data locale="fr-FR">
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
-    <link rel="stylesheet" href="../Css/Boostrap_css/bootstrap.min.css">
+    <link rel="stylesheet" href="../">
     <link rel="stylesheet" href="../Css/modif_css/modif.css">
     <meta charset=" utf-8"/>
     <title>STAS</title>
@@ -39,7 +39,7 @@
         <p class="dorer">Mon panier</p>
     </a>
     <a>
-        <button class="btn" href="#">Identifiant</button>
+        <button class="btn" type="button" href="creerCompte.jsp">Identifiant</button>
     </a>
 </section>
 <nav>
