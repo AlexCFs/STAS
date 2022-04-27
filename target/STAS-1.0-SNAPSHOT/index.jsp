@@ -48,7 +48,13 @@
 <nav>
     <div class="flex-around">
         <a href="#"> Accueil</a>
-        <a href="#"> Toutes nos catégories</a>
+        <a href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false"> Toutes nos catégories</a>
+        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <li><a class="dropdown-item"  href="#">Vêtements</a></li>
+            <li><a class="dropdown-item"  href="#">Livres</a></li>
+            <li><a class="dropdown-item"  href="#">High-Tech</a></li>
+            <li><a class="dropdown-item"  href="#">Bijoux</a></li>
+        </ul>
         <a href="#"> About</a>
         <a href="#"> Contact</a>
 
@@ -77,8 +83,21 @@
     <h2 class="selection">Notre Sélection</h2>
     <img src="images/couronne.png" alt="image de site en ligne">
 </div>
-<div id="blocCard" class="flex-around">
-    <!--javascript injection carte produit-->
+<div class="container">
+    <div id="blocCard" class="flex-around">
+        <!--javascript injection carte produit-->
+    </div>
+    <div class="row">
+        <div class="col">
+            <img width="400" height="40" src="images/robe%203.jfif" class="img-thumbnail" alt="...">
+        </div>
+        <div class="col">
+            <img width="400" height="40" src="images/robe%204.jfif" class="img-thumbnail" alt="...">
+        </div>
+        <div class="col">
+            <img width="400" height="40" src="images/robe%205.jfif" class="img-thumbnail" alt="...">
+        </div>
+    </div>
 </div>
 <footer>
     <section class="flex-column-centre">
