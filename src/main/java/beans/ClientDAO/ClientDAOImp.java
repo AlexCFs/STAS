@@ -157,7 +157,52 @@ public class ClientDAOImp implements ClientDAO {
         return 0;
     }
 
+    @Override
+    public boolean authentificationService(String username, String password) {
+        try {
+            Class.forName("org.mariadb.jdbc.Driver");
+        } catch (ClassNotFoundException e) {
+            e.printStackTrace();
+        }
+        ArrayList<Client> list=findAll();
+        boolean result = false;
+        System.out.println(username);
+        System.out.println(password);
 
+        for (Client c:list){
+            String name=c.getNom();
+            String mdp=c.getMdp();
 
+            if (name.equals(username) && mdp.equals(password)){
+                result =true;
+                System.out.println(name);
+                System.out.println(mdp);
+                break;
+            }
+            else{
+                result=false;
 
+            }
+        }
+        return result;
+    }
+
+    @Override
+    public boolean IfAdmin(Client c) {
+    boolean adminRes = false; // teseter si on est utilisateur ou admin
+        try {
+            Class.forName("org.mariadb.jdbc.Driver");
+        } catch (ClassNotFoundException e) {
+            e.printStackTrace();
+        }
+        if (c.getNom().equals("Admin")){
+            adminRes=true;
+            // apres aller dans la page pour des admis
+        }else{
+            adminRes=false;
+            //apres aller dans la page pour les utilisateur;
+
+        }
+        return adminRes;
+    }
 }

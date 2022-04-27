@@ -14,14 +14,27 @@
 </head>
 <body>
 <%
-    String name =(String)request.getAttribute("name");
+    String nom =(String)request.getAttribute("nom");
+    String prenom =(String)request.getAttribute("prenom");
+    String telephone =(String)request.getAttribute("telephone");
+    String adresse =(String)request.getAttribute("adresse");
+    String codePostal =(String)request.getAttribute("codePostal");
+    String ville =(String)request.getAttribute("ville");
     String email= (String)request.getAttribute("email");
+    String mdp= (String)request.getAttribute("mdp");
+
     //ici, on a déjà récupérer deux valeurs, donc il faut les injecter dans la database maintenant
 
     Client c1= new Client();
-    c1.setCid(0);
-    c1.setName(name);
+    c1.setId(0);
+    c1.setNom(nom);
+    c1.setPrenom(prenom);
+    c1.setTelephone(telephone);
+    c1.setAdresse(adresse);
+    c1.setCodePostal(codePostal);
+    c1.setVille(ville);
     c1.setEmail(email);
+    c1.setMdp(mdp);
 
     // client est créé donc, maintenant il faut envoyer ces infos vers la database
 
