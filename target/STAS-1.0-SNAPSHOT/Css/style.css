@@ -51,26 +51,26 @@ header {
 
 .active {
     color: #fff;
-    background-color: darkgrey;
+    background-color: #D5C10C;
 
 }
 
 .next:hover {
-    background: rgb(117, 117, 117);
+    background: #D5C10C;
     color: #f7faff;
     transition: all 0.1s ease-in-out;
     text-decoration: none;
 }
 
 .prev:hover {
-    background: rgb(117, 117, 117);
+    background: #D5C10C;
     color: #f7faff;
     transition: all 0.1s ease-in-out;
     text-decoration: none;
 }
 
 .finish:hover {
-    background: rgb(255, 3, 3);
+    background: rgb(0, 153,0);
     color: #f7faff;
     transition: all 0.1s ease-in-out;
     text-decoration: none;
