@@ -252,4 +252,10 @@ div.lien-footer > a {
     text-decoration: none;
     color: beige;
 }
+.logos-paiement{
+    width: 250px;
+    height: auto;
+    margin-left: 20px;
+}
+/************************************* page produit **********************************************/
 
