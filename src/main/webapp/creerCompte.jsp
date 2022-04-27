@@ -15,7 +15,6 @@
     <link rel="stylesheet" href="Css/style.css">
     <title>Formulaire d'inscription</title>
 
-    <title>CreerUNcompte</title>
 </head>
 <body>
 <p>formulaire</p>
