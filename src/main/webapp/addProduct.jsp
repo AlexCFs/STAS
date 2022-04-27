@@ -10,6 +10,8 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
 <head>
+    <link rel="stylesheet" href="Css/Boostrap_css/bootstrap.min.css">
+    <link rel="stylesheet" href="Css/modif_css/modif.css">
     <title>AddProduct</title>
 </head>
 <body>
