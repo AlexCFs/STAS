@@ -19,17 +19,17 @@
 <html lang="fr" data locale="fr-FR">
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
-    <link rel="stylesheet" href="../Css/Boostrap_css/bootstrap.min.css">
-    <link rel="stylesheet" href="../Css/modif_css/modif.css">
+    <link rel="stylesheet" href="Css/Boostrap_css/bootstrap.min.css">
+    <link rel="stylesheet" href="Css/modif_css/modif.css">
     <meta charset=" utf-8"/>
     <title>STAS</title>
-    <link rel="icon" type="image/ico" href="../images/Projet%20stas%20icone.png">
+    <link rel="icon" type="image/ico" href="images/Projet%20stas%20icone.png">
 
 
 </head>
 <body>
 <section class="flex-around">
-    <img width="100" height="100" src="../images/Projet stas icone.png">
+    <img width="100" height="100" src="images/Projet stas icone.png">
     <h1 class="logo-titre"> STAS <br/>
         Le meilleur de la vente en ligne
     </h1>
@@ -38,8 +38,9 @@
         <!--<span id="spanQuantite"></span>-->
         <p class="dorer">Mon panier</p>
     </a>
-    <a>
-        <button class="btn" href="#">Identifiant</button>
+    <a href="creerCompte.jsp">
+        <button class="btn" type="button" >Identifiant</button>
+
     </a>
 </section>
 <nav>
@@ -72,7 +73,7 @@
 </section>
 <div class="flex-column-centre">
     <h2 class="selection">Notre Sélection</h2>
-    <img src="../images/couronne.png" alt="image de site en ligne">
+    <img src="images/couronne.png" alt="image de site en ligne">
 </div>
 <div id="blocCard" class="flex-around">
     <!--javascript injection carte produit-->
@@ -129,7 +130,7 @@
         </div>
         <div class="flex-around">
             <p class="white">Paiement sécurisé</p>
-            <img class="logos-paiement" src="../images/securiser.png">
+            <img class="logos-paiement" src="images/securiser.png">
         </div>
 
     </section>
@@ -137,7 +138,7 @@
 
 
 <script src="https://kit.fontawesome.com/3163bfb407.js" crossorigin="anonymous"></script>
-<script src="../Js/index.js"></script>
+<script src="Js/index.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
         crossorigin="anonymous"></script>
