@@ -19,7 +19,7 @@
 <html lang="fr" data locale="fr-FR">
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
-    <link rel="stylesheet" href="../Css/Boostrap_css/bootstrap.min.css">
+    <link rel="stylesheet" href="../">
     <link rel="stylesheet" href="../Css/modif_css/modif.css">
     <meta charset=" utf-8"/>
     <title>STAS</title>
