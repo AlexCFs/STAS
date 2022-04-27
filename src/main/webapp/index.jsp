@@ -17,5 +17,4 @@
 <a href="ajoutProduitForm.jsp">lienAjoutProduct</a>
 </body>
 
-
 </html>
