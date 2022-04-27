@@ -1,6 +1,6 @@
 body {
     height: 100vh;
-    background: url(/images/header.jpg) no-repeat 50% 50%;
+    background: url(../images/header.jpg) no-repeat 50% 50%;
     background-size: cover;
 }
 
