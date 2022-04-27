@@ -12,17 +12,18 @@ public class mainTest {
         ClientDAO dao1= new ClientDAOImp();
         ArrayList<Client> list=dao1.findAll();
 
-        for (Client c:list){
-            System.out.println(c);
-        }
+
         //ça marche bien
 
-        Client c1=new Client(1,"dupont","pierre","0784562857","rue vaugerard","75000","paris","gregrgr@gmail.com","fefe");
+        Client c1=new Client(1,"dupond","luc","84512354874","rue pairs","75800","paris","fezsd@gmail.com","fzesdv");
         //le cid, on s'en fiche, car dans la database, c'est généré automatiquement
         ClientDAO dao2=new ClientDAOImp();
 
 
        dao2.insert(c1);
+        for (Client c:list){
+            System.out.println(c);
+        }
         }
         //
 

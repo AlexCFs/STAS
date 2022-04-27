@@ -17,70 +17,74 @@
 
 </head>
 <body>
-<p>formulaire</p>
-<form action="CreationCompte" method="post">
-
-    <div class="page" id="page1">
-        <h1>Identité</h1>
-        <div>
-            <select id="civilite" name="civilite">
-                <option value="0">Civilité</option>
-                <option value="1">Madame</option>
-                <option value="2">Monsieur</option>
-            </select>
-        </div>
-        <div>
-            <label for="nom">Nom</label>
-            <input type="text" id="nom" name="nom" required>
-        </div>
-        <div>
-            <label for="prenom">Prénom</label>
-            <input type="text" id="prenom" name="prenom" required>
-        </div>
-        <button class="next" type="button">Suivant</button>
-    </div>
+<main>
+    <header>
+    </header>
+    <form action="" method="post">
 
 
-    <div class="page" id="page2">
-        <h1>Coordonnées</h1>
-        <div>
+        <div class="page" id="page1">
+            <h1>Identité</h1>
             <div>
-                <label for="telephone">Téléphone</label>
-                <input type="text" id="telephone" name="telephone" required>
+                <select id="civilite" name="civilite">
+                    <option value="0">Civilité</option>
+                    <option value="1">Madame</option>
+                    <option value="2">Monsieur</option>
+                </select>
             </div>
-            <label for="adresse">Adresse</label>
-            <input type="text" id="adresse" name="adresse" required>
+            <div>
+                <label for="nom">Nom</label>
+                <input type="text" id="nom" name="nom" value="" required>
+            </div>
+            <div>
+                <label for="prenom">Prénom</label>
+                <input type="text" id="prenom" name="prenom" value="" required>
+            </div>
+            <button class="next" type="button">Suivant</button>
         </div>
-        <div>
-            <label for="cp">Code postal</label>
-            <input type="text" id="cp" name="cp" required>
+
+
+        <div class="page" id="page2">
+            <h1>Coordonnées</h1>
+            <div>
+                <div>
+                    <label for="telephone">Téléphone</label>
+                    <input type="text" id="telephone" name="telephone" required>
+                </div>
+                <label for="adresse">Adresse</label>
+                <input type="text" id="adresse" name="adresse" required>
+            </div>
+            <div>
+                <label for="cp">Code postal</label>
+                <input type="text" id="cp" name="cp" required>
+            </div>
+            <div>
+                <label for="ville">Ville</label>
+                <input type="text" id="ville" name="ville" required>
+            </div>
+            <button class="prev" type="button">Précédent</button>
+            <button class="next" type="button">Suivant</button>
         </div>
-        <div>
-            <label for="ville">Ville</label>
-            <input type="text" id="ville" name="ville" required>
-        </div>
-        <button class="prev" type="button">Précédent</button>
-        <button class="next" type="button">Suivant</button>
-    </div>
 
 
 
-    <div class="page" id="page3">
-        <h1>Identifiants de connexion</h1>
-        <div>
-            <label for="email">E-mail*</label>
-            <input type="text" id="email" name="email"required>
+        <div class="page" id="page3">
+            <h1>Identifiants de connexion</h1>
+            <div>
+                <label for="email">E-mail*</label>
+                <input type="text" id="email" name="email"required>
+            </div>
+            <div>
+                <label for="pass">Mot de pass*</label>
+                <input type="password" id="pass" name="pass"required>
+            </div>
+            <button class="prev" type="button">Précédent</button>
+            <button class="finish" type="submit">Terminer</button>
         </div>
-        <div>
-            <label for="pass">Mot de pass*</label>
-            <input type="password" id="pass" name="pass"required>
-        </div>
-        <button class="prev" type="button">Précédent</button>
-        <button class="finish" type="submit">Terminer</button>
-    </div>
 
 
-</form>
+    </form>
+</main>
 <script src="Js/scripts.js" type="text/javascript"></script>
 </body>
 
