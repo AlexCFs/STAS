@@ -7,14 +7,14 @@
 <body>
 <fieldset id="enreg">
     <legend>Ajout de nouveau produit </legend>
-    <form action="" method="post" enctype="multipart/form-data">
+    <form action="AjoutProduit" method="post">
         <table>
             <tr>
                 <td><p><label for="nom">Nom du produit : </label>
-                    <input type="text" name="nom " id="nom" autofocus required /></p>
+                    <input type="text" name="nom" id="nom"  autofocus required /></p>
 
                     <p><label for="categorie">Catégorie du produit: </label>
-                        <select name="categorie" id="categorie" required>
+                        <select name="categorie" id="categorie"  autofocus required>
                             <option value=""></option>
                             <option value="Bijoux">Bijoux</option>
                             <option value="High-Tech">High-Tech</option>
@@ -22,12 +22,15 @@
                             <option value="Vetements">Vetements</option>
                         </select></p>
 
-                    <p><label for="descriptif">Descriptif du produit :</label>
-                        <textarea name="descriptif" id="descriptif" cols="50" rows="10" required></textarea></p>
+                    <p><label for="description">Descriptif du produit :</label>
+                        <textarea name="description" id="description" cols="50" rows="10" required></textarea></p>
 
-                    <p><label for="image">Image du produit : </label>
-                        <input type="hidden" name="MAX_FILE_SIZE" value="1048576" />
-                        <input type="file" name="image" id="image" required /></p>
+
+                    <p><label for="prix">prix :</label>
+                        <input type="text" name="prix" id="prix"  autofocus required /></p>
+
+                    <p><label for="quantite">quantité :</label>
+                        <input type="text" name="quantite" id="quantite" autofocus required /></p>
 
 
                     <input type="submit" value="POSTER" class="OK" />
