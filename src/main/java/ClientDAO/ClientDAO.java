@@ -1,4 +1,4 @@
-package beans.ClientDAO;
+package ClientDAO;
 
 import beans.Client;
 
