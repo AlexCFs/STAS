@@ -1,4 +1,4 @@
-package beans.Servlet;
+package Servlet;
 
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
@@ -6,6 +6,7 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
+import java.io.PrintWriter;
 
 @WebServlet(name = "CreationCompte", value = "/CreationCompte")
 public class CreationCompte extends HttpServlet {
@@ -20,7 +21,12 @@ public class CreationCompte extends HttpServlet {
         String e= request.getParameter("email");
         String m= request.getParameter("mdp");
 
-        request.setAttribute("name" , n);
+        PrintWriter out = response.getWriter();
+        out.println("<html><body>");
+        out.println("<h1>" + n + "</h1>");
+        out.println("</body></html>");
+
+        request.setAttribute("nom" , n);
         request.setAttribute("prenom" , p);
         request.setAttribute("telephone" , t);
         request.setAttribute("adresse" , a);

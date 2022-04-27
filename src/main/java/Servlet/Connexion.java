@@ -1,7 +1,7 @@
-package beans.Servlet;
+package Servlet;
 
-import beans.ClientDAO.ClientDAO;
-import beans.ClientDAO.ClientDAOImp;
+import ClientDAO.ClientDAO;
+import ClientDAO.ClientDAOImp;
 
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;

@@ -13,8 +13,8 @@
                 <td><p><label for="nom">Nom du produit : </label>
                     <input type="text" name="nom " id="nom" autofocus required /></p>
 
-                    <p><label for="catégorie">Catégorie du produit: </label>
-                        <select name="catégorie" id="catégorie" required>
+                    <p><label for="categorie">Catégorie du produit: </label>
+                        <select name="categorie" id="categorie" required>
                             <option value=""></option>
                             <option value="Bijoux">Bijoux</option>
                             <option value="High-Tech">High-Tech</option>
