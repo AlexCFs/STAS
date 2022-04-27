@@ -44,7 +44,7 @@ public class Connexion extends HttpServlet {
                 out.println("<html><body>");
                 out.println("<h1>" +message2+ "</h1>");
                 out.println("</body></html>");
-
+                response.sendRedirect("utilisateur.jsp");
             }
             //il faut modifier le chemin
         }
