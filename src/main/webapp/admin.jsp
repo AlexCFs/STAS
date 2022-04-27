@@ -35,9 +35,7 @@
     <a href="listeUtilisateur.jsp">
         <button class="btn" type="button">voir utilisateurs</button>
     </a>
-    <a href="ajoutProduitForm.jsp">
-        <button class="btn" type="button">ajouterproduit</button>
-    </a>
+
     <a href="index.jsp">
         <button class="btn" type="button">return</button>
     </a>
