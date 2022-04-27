@@ -41,6 +41,9 @@ a {
     color: #D5C10C;
 
 }
+#dorer{
+    color: #D5C10C;
+}
 
 .bg-dorer {
     background-color: #D5C10C;
@@ -210,7 +213,21 @@ svg {
     border-radius: 20px;
 
 }
-
+.card-size{
+    width: 450px;
+    min-height: 400px;
+}
+.titre-card{
+    text-align: center;
+    font-family: "Lucida Calligraphy", sans-serif;
+    height: 80px;
+    font-size: 2em;
+    color: #D5C10C;
+}
+.image-size{
+    width: 400px;
+    height: 350px;
+}
 /*Pour La video*/
 
 /************************************* footer **********************************************/

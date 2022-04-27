@@ -1,7 +1,7 @@
 body {
     height: 100vh;
     background: url(../images/header.jpg) no-repeat 50% 50%;
-    background-size:cover;
+    background-size: cover;
 }
 
 main {
@@ -13,24 +13,33 @@ main {
     left: 50%;
     transform: translate(-50%, -50%);
 }
-select{
-    display: block;
-    width: 15%;
-    margin-top: 5px;
-    margin-bottom: 5px;
-    border: 1px solid rgb(189, 186, 186);
-    border-radius: 5px;
-}
-
 
 input {
+    justify-content: center;
     display: block;
-    width: 100%;
+    width: 20%;
     margin-top: 5px;
     margin-bottom: 5px;
     border: 1px solid rgb(189, 186, 186);
     border-radius: 5px;
 }
+.button  {
+    display: block;
+    width: 20%;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    border: 1px solid rgb(0, 100,0);
+
+    position: center;}
+
+.button:hover  {
+
+    background: rgb(0, 153,0);
+    color: #f7faff;
+    transition: all 0.1s ease-in-out;
+    text-decoration: none;
+}
+/*
 .page {
     display: none;
 }
@@ -74,7 +83,4 @@ header {
     color: #f7faff;
     transition: all 0.1s ease-in-out;
     text-decoration: none;
-}
-#page2 {
-    justify-content: right;
-}
+}*/
