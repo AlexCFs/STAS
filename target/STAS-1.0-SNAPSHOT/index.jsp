@@ -56,7 +56,7 @@
             <li><a class="dropdown-item"  href="#">Bijoux</a></li>
         </ul>
         <a href="#"> About</a>
-        <a href="#"> Contact</a>
+        <a href="contact.jsp"> Contact</a>
 
     </div>
 </nav>
