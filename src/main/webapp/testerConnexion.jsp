@@ -8,21 +8,24 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
 <head>
-    <link rel="stylesheet" href="Css/modif_css/connexion.css">
     <title>TesterConnexion</title>
+
 
 
 </head>
 <body>
-<h2>Veuillez vous connecter </h2>
-<form action="Connexion" method="post">
+<h2>tester la connection et on va créer un compte si jamais vous n'avez pas </h2>
+<p>formulaire</p>
+<form action="Connexion"  method="post">
 
-    <label id="name">E-mail</label><br>
+    <label id="name">nom :</label><br>
     <input type="text" id="name" name="name" value=""><br>
-    <label id="mdp">Mot de pass: </label><br>
-    <input type="text" id="mdp" name="mdp" value=""><br>
-    <input class="button" type="submit" value="Connexion" />
+    <label id="mdp"> mot de pass: </label><br>
+    <input type="text" id="mdp" name="mdp" value="" ><br>
+
+    <input type="submit" value="valider"/>
     <br>
     <br>
+
 </body>
 </html>
