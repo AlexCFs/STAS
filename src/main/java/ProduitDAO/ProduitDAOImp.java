@@ -1,13 +1,11 @@
-package beans.ClientDAO;
+package ProduitDAO;
 
-import beans.Client;
+import beans.Produit;
 
 import java.sql.*;
 import java.util.ArrayList;
 
-public class ClientDAOImp implements ClientDAO {
-
-    // il y a 2 méthodes que je n'ai pas encore fait
+public class ProduitDAOImp implements ProduitDAO{
     private Connection con=null;
 
     public void initialisation(){
@@ -24,15 +22,12 @@ public class ClientDAOImp implements ClientDAO {
             System.out.println(con);
 
 
-
-
         }catch (Exception e ){
             System.out.println("Exception : "+ e.getMessage());
 
         }
     }
-
- // choisir la bonne méthode de close, car dans certaine méthode, on n'a pas besoin de Resultset rs
+    // choisir la bonne méthode de close, car dans certaine méthode, on n'a pas besoin de Resultset rs
     public void Close(Connection con, Statement stat, ResultSet rs ){
         if(con!=null){
             try {
@@ -76,29 +71,36 @@ public class ClientDAOImp implements ClientDAO {
 
 
 
+
     @Override
-    public ArrayList<Client> findAll() {
-        ArrayList <Client> list=new ArrayList<>();
+    public ArrayList<Produit> findAllProduct() {
+
+        ArrayList <Produit> list=new ArrayList<Produit>();
+
+        try {
+            Class.forName("org.mariadb.jdbc.Driver");
+        } catch (ClassNotFoundException e) {
+            e.printStackTrace();
+        }
+
         initialisation();
         Statement stat = null;
         ResultSet rs= null;
         try {
             stat = con.createStatement();
-            String requete = "SELECT * FROM utilisateur";
+            String requete = "SELECT * FROM produit";
             rs = stat.executeQuery(requete);
             while (rs.next()){
-                int id= rs.getInt("id");
-                String nom= rs.getString("nom");
-                String prenom= rs.getString("prenom");
-                String telephone= rs.getString("telephone");
-                String adresse= rs.getString("adresse");
-                String codePostal= rs.getString("codePostal");
-                String ville= rs.getString("ville");
-                String email= rs.getString("email");
-                String mdp= rs.getString("mdp");
+                int id= rs.getInt("idProduit");
+                String categorie= rs.getString("categorie");
+                String nomProduit= rs.getString("nomProduit");
+                String description= rs.getString("description");
+                double prix=rs.getDouble("prix");
+                int quantite=rs.getInt("quantite");
 
-                Client c= new Client(id, nom,  prenom, telephone, adresse, codePostal, ville, email, mdp);
-                list.add(c);
+
+                Produit p= new Produit(id, categorie, nomProduit,description,prix,quantite);
+                list.add(p);
 
             }
 
@@ -111,17 +113,13 @@ public class ClientDAOImp implements ClientDAO {
     }
 
 
-
     @Override
-    public Client findById(int id) {
-
-
-
+    public Produit findProductById(int id) {
         return null;
     }
 
     @Override
-    public int insert(Client c) {
+    public int insertProduct(Produit p) {
         try {
             Class.forName("org.mariadb.jdbc.Driver");
         } catch (ClassNotFoundException e) {
@@ -132,7 +130,7 @@ public class ClientDAOImp implements ClientDAO {
         int result =0;
         try {
             stat = con.createStatement();
-            String sql = "INSERT INTO utilisateur VALUES (DEFAULT ,'"+c.getNom()+"','"+c.getPrenom()+"','"+c.getTelephone()+"','"+c.getAdresse()+"','"+c.getCodePostal()+"','"+c.getVille()+"','"+c.getEmail()+"','"+c.getMdp()+"')";
+            String sql = "INSERT INTO produit VALUES (DEFAULT ,'"+p.getCategorie()+"','"+p.getNomProduit()+"','"+p.getDescription()+"','"+p.getPrix()+"','"+p.getQuantite()+"')";
 
             stat.executeUpdate(sql);
 
@@ -147,8 +145,9 @@ public class ClientDAOImp implements ClientDAO {
         return result;
     }
 
+
     @Override
-    public int update(Client c) {
+    public int updateProduct(Produit p) {
         return 0;
     }
 
@@ -156,53 +155,7 @@ public class ClientDAOImp implements ClientDAO {
     public int delete(int id) {
         return 0;
     }
-
-    @Override
-    public boolean authentificationService(String username, String password) {
-        try {
-            Class.forName("org.mariadb.jdbc.Driver");
-        } catch (ClassNotFoundException e) {
-            e.printStackTrace();
-        }
-        ArrayList<Client> list=findAll();
-        boolean result = false;
-        System.out.println(username);
-        System.out.println(password);
-
-        for (Client c:list){
-            String name=c.getNom();
-            String mdp=c.getMdp();
-
-            if (name.equals(username) && mdp.equals(password)){
-                result =true;
-                System.out.println(name);
-                System.out.println(mdp);
-                break;
-            }
-            else{
-                result=false;
-
-            }
-        }
-        return result;
-    }
-
-    @Override
-    public boolean IfAdmin(Client c) {
-    boolean adminRes = false; // teseter si on est utilisateur ou admin
-        try {
-            Class.forName("org.mariadb.jdbc.Driver");
-        } catch (ClassNotFoundException e) {
-            e.printStackTrace();
-        }
-        if (c.getNom().equals("Admin")){
-            adminRes=true;
-            // apres aller dans la page pour des admis
-        }else{
-            adminRes=false;
-            //apres aller dans la page pour les utilisateur;
-
-        }
-        return adminRes;
-    }
 }
+
+
+
