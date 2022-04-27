@@ -29,7 +29,7 @@ public interface ClientDAO {
     public abstract boolean authentificationService(String username, String useremail);
 
     //verfier si tu es client/utilisateur ou admin
-    public abstract boolean IfAdmin(Client c);
+    public abstract boolean IfAdmin(String name);
 
 
 }
