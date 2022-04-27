@@ -29,7 +29,7 @@
         <!--<span id="spanQuantite"></span>-->
         <p class="dorer">Mon panier</p>
     </a>
-    <a href="testerConnexion.jsp">
+    <a href="stockageProduit.jsp">
         <button class="btn" type="button">voir stockage </button>
     </a>
     <a href="testerConnexion.jsp">
