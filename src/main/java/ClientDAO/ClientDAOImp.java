@@ -188,14 +188,14 @@ public class ClientDAOImp implements ClientDAO {
     }
 
     @Override
-    public boolean IfAdmin(Client c) {
-    boolean adminRes = false; // teseter si on est utilisateur ou admin
+    public boolean IfAdmin(String name) {
+        boolean adminRes = false; // teseter si on est utilisateur ou admin
         try {
             Class.forName("org.mariadb.jdbc.Driver");
         } catch (ClassNotFoundException e) {
             e.printStackTrace();
         }
-        if (c.getNom().equals("Admin")){
+        if (name.equals("Admin")){
             adminRes=true;
             // apres aller dans la page pour des admis
         }else{
@@ -205,4 +205,6 @@ public class ClientDAOImp implements ClientDAO {
         }
         return adminRes;
     }
+
+
 }

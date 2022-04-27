@@ -30,11 +30,8 @@ public class mainTest {
 
         System.out.println("-----------tester la table de produit-------------------");
         ProduitDAO daoPro1= new ProduitDAOImp();
-        Produit p1=new Produit(0, "Livres", "voyager en Chine","Description666dbfddu",10.50, 250);
+        Produit p1=new Produit(0, "Bijoux", "bracelet pandora","Description666dbfddu",650, 250);
         daoPro1.insertProduct(p1);
-
-
-
 
 
     }
