@@ -20,7 +20,7 @@
 <main>
     <header>
     </header>
-    <form action="" method="post">
+    <form action="CreationCompte" method="post">
 
 
         <div class="page" id="page1">
@@ -34,11 +34,11 @@
             </div>
             <div>
                 <label for="nom">Nom</label>
-                <input type="text" id="nom" name="nom" value="" required>
+                <input type="text" id="nom" name="nom" required>
             </div>
             <div>
                 <label for="prenom">Prénom</label>
-                <input type="text" id="prenom" name="prenom" value="" required>
+                <input type="text" id="prenom" name="prenom" required>
             </div>
             <button class="next" type="button">Suivant</button>
         </div>
@@ -55,8 +55,8 @@
                 <input type="text" id="adresse" name="adresse" required>
             </div>
             <div>
-                <label for="cp">Code postal</label>
-                <input type="text" id="cp" name="cp" required>
+                <label for="codePostal">Code postal</label>
+                <input type="text" id="codePostal" name="codePostal" required>
             </div>
             <div>
                 <label for="ville">Ville</label>
@@ -75,8 +75,8 @@
                 <input type="text" id="email" name="email"required>
             </div>
             <div>
-                <label for="pass">Mot de pass*</label>
-                <input type="password" id="pass" name="pass"required>
+                <label for="mdp">Mot de pass*</label>
+                <input type="password" id="mdp" name="mdp"required>
             </div>
             <button class="prev" type="button">Précédent</button>
             <button class="finish" type="submit">Terminer</button>
