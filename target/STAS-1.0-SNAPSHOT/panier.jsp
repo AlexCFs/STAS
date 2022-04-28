@@ -82,9 +82,7 @@
     </div>
     <div id="basket-fiche" class="flex-around">
         <div id="injectJs">
-            <div>
-                <img src="images/presentation.jfif">
-            </div>
+            <div></div>
 
         </div>
 
