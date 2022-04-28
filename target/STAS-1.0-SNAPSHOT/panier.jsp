@@ -44,6 +44,24 @@
 <br>
 <br>
 
+<section id="basket" class="flex-column-centre">
+    <!--injection carte panier-->
+    <div id="blocTitrePanier" class="flex-start size80">
+        <h2 id="titre-panier">
+            Veuillez ajouter des produits au panier <br/>
+             Pas de produit
+        </h2>
+    </div>
+    <div id="basket-fiche" class="flex-around">
+        <div id="injectJs">
+            <div></div>
+
+        </div>
+
+    </div>
+</section>
+
+
 <footer>
     <section class="flex-column-centre">
         <div class="flex-centre">
