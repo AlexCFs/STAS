@@ -22,7 +22,6 @@ a {
 }
 
 
-
 .beige {
     color: beige;
 }
@@ -43,7 +42,8 @@ a {
     color: #D5C10C;
 
 }
-#dorer{
+
+#dorer {
     color: #D5C10C;
 }
 
@@ -214,26 +214,36 @@ svg {
     background-color: beige;
     border-radius: 20px;
 }
-.cardib{
+
+.cardib {
     background-color: beige;
     border-radius: 20px;
 }
-.card-size{
+
+.card-size {
     width: 450px;
     min-height: 400px;
 }
-.titre-card{
+
+.card-autre {
+    width: 800px;
+    min-height: 50px;
+}
+
+.titre-card {
     text-align: center;
     font-family: "Lucida Calligraphy", sans-serif;
     height: 80px;
     font-size: 2em;
     color: #D5C10C;
 }
-.image-size{
+
+.image-size {
     width: 400px;
     height: 350px;
 }
-.bouton-chene{
+
+.bouton-chene {
     background-color: #D5C10C;
     width: 120px;
     height: 50px;
@@ -243,13 +253,15 @@ svg {
     justify-content: center;
     align-items: center;
 }
-.description-meuble{
+
+.description-meuble {
     text-align: center;
     justify-content: center;
     margin: 20px;
     width: 90px;
 }
-.bouton-details{
+
+.bouton-details {
     box-shadow: 0px 0px;
     border-radius: 10px;
     font-size: 1em;
@@ -260,29 +272,34 @@ svg {
     cursor: pointer;
 
 }
+
 /*Pour La video*/
 
 /************************************* footer **********************************************/
-footer{
+footer {
     margin-top: 50px;
     min-height: auto;
     background-color: #D5C10C;
 }
-.titre-reseau{
-   text-align: center;
+
+.titre-reseau {
+    text-align: center;
     font-size: xx-large;
     font-family: "Lucida Calligraphy", sans-serif;
     color: white;
 }
-.logos-reseau{
+
+.logos-reseau {
     margin-top: 20px;
     margin-bottom: 20px;
     width: 40%;
 }
-.foot-logo{
+
+.foot-logo {
     color: white;
 }
-.bloc-footer{
+
+.bloc-footer {
     display: flex;
     flex-direction: column;
     padding: 20px;
@@ -290,24 +307,28 @@ footer{
     min-height: 200px;
     width: 220px;
 }
+
 div.bloc-footer > h2 {
     font-size: xx-large;
     font-weight: normal;
     font-family: "Lucida Calligraphy", sans-serif;
 }
+
 div.lien-footer > a {
     font-size: larger;
     display: block;
     text-decoration: none;
     color: beige;
 }
-.logos-paiement{
+
+.logos-paiement {
     width: 250px;
     height: auto;
     margin-left: 20px;
 }
+
 /************************************* page produit **********************************************/
-#spanQuantite{
+#spanQuantite {
     position: absolute;
     margin-top: -10px;
     margin-right: -30px;
@@ -318,23 +339,121 @@ div.lien-footer > a {
     background-color: #D5C10C;
     color: white;
 }
-.div-list-deroulante{
+
+.div-list-deroulante {
     width: 200px;
     margin-bottom: 20px;
 }
+
 .bouton-acheter {
     margin-bottom: 20px;
 }
-.card-size-produit{
+
+.card-size-produit {
     width: 500px;
     min-height: auto;
 }
-.titre-card-size{
+
+.belier {
+    width: 50%;
+    height: 50%;
+
+}
+
+.titre-card-size {
     height: auto;
 }
-select{
+
+select {
     border: 3px solid #868c4d;
     background-color: beige;
     color: #D5C10C;
 }
 
+/************************************* page panier **********************************************/
+#charriot {
+    text-decoration: none;
+}
+
+.size80 {
+    width: 80%;
+}
+
+#titre-panier {
+    width: 80%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-weight: 400;
+    font-family: "Lucida Calligraphy", sans-serif;
+}
+
+.trait-design-panier {
+    width: 7%;
+    margin-top: -10px;
+    margin-bottom: 20px;
+    border-bottom: 2px solid #D5C10C;
+}
+
+#basket-fiche {
+    width: 60px;
+    margin-bottom: 20px;
+
+}
+#basketProduit{
+    width: 90%;
+    margin-bottom: 10px;
+    box-shadow: 0 2px 10px rgb(0 0 0 / 16%), 0 2px 5px rgb(0 0 0 / 26%);
+    padding: 20px;
+}
+#injectJs{
+    width: 60%;
+    margin-bottom: 20px;
+}
+#blocImage{
+    width: 30%;
+}
+#blocImage > img{
+    width: 100%;
+    height: auto;
+}
+#blocProduit{
+    width: 30%;
+}
+#bloc-change-produit{
+    width: 35%;
+}
+.bouton-moins,
+.bouton-plus{
+    border: 1px solid rgba(231, 65, 43, 0.178);
+    background-color: white;
+    color: #D5C10C;
+    font-size: xx-large;
+    width: 40px;
+    height: 50px;
+    cursor: pointer;
+}
+.produit-quantite{
+    font-size: larger;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(128, 128, 128, 0.267);
+    width: 50px;
+    height: 50px;
+}
+.bouton-corbeille:hover{
+    cursor: pointer;
+    color: #D5C10C;
+}
+#basket-recap{
+    width: 30%;
+    box-shadow: 0 2px 10px rgb(0 0 0 / 16%), 0 2px 5px rgb(0 0 0 / 26%);
+    padding: 20px;
+
+}
+.titre-recap{
+    font-size: xx-large;
+    font-weight: 400;
+    font-family: "Lucida Calligraphy", sans-serif;
+    line-height: 1.4em;
+}

@@ -13,27 +13,54 @@
     <link rel="stylesheet" href="Css/modif_css/modif.css">
     <meta charset=" utf-8"/>
     <link rel="icon" type="image/ico" href="images/Projet%20stas%20icone.png">
-    <title>Vêtements</title>
+    <title>High-tech</title>
 </head>
 <body>
 
 <section>
     <div class="flex-column-around cardib">
-        <img src="images/robe%203.jfif" class="img-thumbnail" alt="...">
-        <div class="bouton-chene"><p class="white"> 47 euro</p></div>
-        <p class="dorer">Une jolie robe d'allaitement </p>
+        <img src="images/sony-consoles-playstation-5-ps5.jpg" class="img-thumbnail" alt="...">
+        <div class="bouton-chene"><p class="white"> 700euro</p></div>
+        <p class="dorer">SONY CONSOLE PLAYSTATION 5 PS5 - VERSION DISQUE</p>
         <h6> Description :<br/>
-            Une jolie robe d'allaitement super pratique dans laquelle on se sent à l'aise !
+            Profitez d'un chargement ultra-rapide avec un SSD ultra-haut débit, d'un engagement encore plus grand avec
+            la prise en charge du retour haptique, des déclencheurs adaptatifs et de l'audio 3D, et découvrez une
+            nouvelle génération de jeux PlayStation incroyables
+            Laissez-vous surprendre par les graphismes incroyables et essayez les nouvelles fonctionnalités de PS5.
+            Vivez une expérience de jeu plus approfondie avec la prise en charge de la rétroaction tactile, des
+            déclencheurs adaptatifs et de la technologie audio 3D
+            Jusqu'à 120 FPS avec sortie 120 Hz-profitez d'un gameplay fluide avec une fréquence d'images élevée jusqu'à
+            120 FPS pour les jeux compatibles, avec la prise en charge de la sortie 120 Hz sur écran 4K
+            Déclencheurs adaptatifs: découvrez les déclencheurs adaptatifs engageants et leurs niveaux de résistance
+            dynamique qui simulent l'impact physique de vos actions de jeu dans certains titres PS5 .
+            Ray Tracing-plongez dans des mondes qui offrent un niveau de réalisme sans précédent, avec chaque faisceau
+            de lumière simulé individuellement, créant des effets d'ombre et de réflexion ultra-réalistes sur les jeux
+            PS5 compatibles.
+            Technologie HDR-sur un téléviseur HDR, les jeux PS5 compatibles affichent une gamme de couleurs vive et
+            réaliste
+            Sortie 8K-Les consoles PS5 prennent en charge la sortie 8K, vous permettant de jouer sur votre écran 4320p
+            Feedback tactile-profitez d'un feedback tactile via la manette sans fil dualsense tout en jouant à certains
+            jeux PS5 et ressentez les effets et l'impact de vos actions de jeu grâce à un feedback sensoriel dynamique.
+            Le jeu n'a pas de limites.
+            Profitez de recharges ultra-rapides avec un disque SSD (solid State Drive) haute vitesse, d'une immersion
+            plus profonde avec un retour tactile, de déclencheurs adaptatifs et d'un nouvel audio 3D, ainsi que d'une
+            nouvelle génération de jeux PlayStation incroyables.
 
-            - Robe courte d'allaitement (peu aussi se porter durant la grossesse)
-            - Manches longues
-            - Col rond
-            - Haut en maille stretch avec lien à nouer
-            - Elastique sous poitrine
-            - Bas en maille crêpée avec motif à fleurs
-            - Longueur dos : 92 cm environ
+            Comprendre:
 
-            - Notre mannequin porte une taille S et mesure 1m77</h6>
+            1 Contrôleur
+            Base.
+
+            Câble HDMI.
+
+            Câble USB.
+
+            Cordon.
+
+            825 Go SSD.
+
+            Salle de jeux Astro (jeu préinstallé sur la console).
+        </h6>
         <div class="flex-column-around div-list-deroulante">
             <label for="couleur" class="dorer"> choisissez la couleur</label>
             <select name="couleur" id="couleur" autofocus>

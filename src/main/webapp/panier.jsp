@@ -1,28 +1,12 @@
 <%@ page contentType="text/html; charset=UTF-8" pageEncoding="UTF-8" %>
 <!DOCTYPE html>
-<!--<html>
-<head>
-<title>JSP - Hello World</title>
-</head>
-<body>
-<h1><%= "Hello World!" %>
-</h1>
-<br/>
-<a href="hello-servlet">Hello Servlet</a>
-<br><br>
-<a href="creerCompte.jsp">lienInscription</a>
-<br><br>
-<a href="testerConnexion.jsp">lienTesterConnexion</a>
-<br><br>
-<a href="ajoutProduitForm.jsp">lienAjoutProduct</a>
-</body>-->
 <html lang="fr" data locale="fr-FR">
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
     <link rel="stylesheet" href="Css/Boostrap_css/bootstrap.min.css">
     <link rel="stylesheet" href="Css/modif_css/modif.css">
     <meta charset=" utf-8"/>
-    <title>STAS</title>
+    <title>Panier</title>
     <link rel="icon" type="image/ico" href="images/Projet%20stas%20icone.png">
 
 
@@ -30,19 +14,12 @@
 <body>
 <section class="flex-around">
     <img width="100" height="100" src="images/Projet stas icone.png">
-    <h1 class="logo-titre"> STAS <br/>
-        Le meilleur de la vente en ligne
+    <h1 class="logo-titre"> PANIER
     </h1>
-    <a id="charriot" href="panier.jsp" class="flex-column-between">
+    <a id="charriot" href="#" class="flex-column-between">
         <i class=" dorer fa-solid fa-cart-arrow-down fa-3x"></i>
         <!--<span id="spanQuantite"></span>-->
         <p class="dorer">Mon panier</p>
-    </a>
-    <a href="creerCompte.jsp">
-        <button class="btn" type="button">Inscription</button>
-    </a>
-    <a href="testerConnexion.jsp">
-        <button class="btn" type="button">Connexion</button>
     </a>
 </section>
 <nav>
@@ -52,7 +29,7 @@
         <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
             <li><a class="dropdown-item" href="vetement.jsp">Vêtements</a></li>
             <li><a class="dropdown-item" href="#">Livres</a></li>
-            <li><a class="dropdown-item" href="high-tech.jsp">High-Tech</a></li>
+            <li><a class="dropdown-item" href="#">High-Tech</a></li>
             <li><a class="dropdown-item" href="#">Bijoux</a></li>
         </ul>
         <a href="#"> About</a>
@@ -60,69 +37,30 @@
 
     </div>
 </nav>
-<section>
-    <div id="banniere">
-        <!--javascript injection banniere-->
-    </div>
-    <div class="flex-centre">
-        <div class="garantie flex-around">
-            <h3 class="size-lien-garantie bordure-garantie"><i class="fa-solid fa-house fa-lg"></i> showroom
-            </h3>
-            <h3 class="size-lien-garantie bordure-garantie"><i class="fa-solid fa-calendar-check fa-lg"></i> Garantie
-                1an
-            </h3>
-            <h3 class="size-lien-garantie bordure-garantie"><i class="fa-solid fa-puzzle-piece fa-lg"></i> Recevez votre
-                échantillon
-            </h3>
-            <h3 class="size-lien-garantie"><i class="fa-solid fa-dolly fa-lg"></i>Livraison et retour
-            </h3>
-        </div>
-    </div>
-</section>
 <div class="flex-column-centre">
     <h2 class="selection">Notre Sélection</h2>
     <img src="images/couronne.png" alt="image de site en ligne">
 </div>
 <br>
 <br>
-<div class="container">
-    <div  class="row flex-around ">
-        <video class="card card-autre" autoplay='autoplay' muted='' loop='infinite' src="images/designer.mp4"> </video>
-    </div>
-    <br>
-    <br>
 
-    <div class="row flex-around cardib">
-        <div class="col-lg cardib">
-            <img width="400" height="40" src="images/robe%203.jfif" class="img-thumbnail" alt="...">
-            <div class="bouton-chene"></div>
-            <p class="dorer">Une jolie robe d'allaitement </p>
-            <a href="vetement.jsp">
-                <button class="btn" type="button">Voir</button>
-                <p class="dorer"> 47 euro</p>
-            </a>
-        </div>
-        <div class="col-lg cardib">
-            <img width="400" height="40" src="images/robe%204.jfif" class="img-thumbnail" alt="...">
-            <div class="bouton-chene"></div>
-            <p class="dorer"> Robe avec tulle à col carré évasé </p>
-            <a href="vetement.jsp">
-                <button class="btn" type="button">Voir</button>
-                <p class="dorer"> 67 euro</p>
-            </a>
-        </div>
-        <div class="col-lg cardib">
-            <img width="400" height="40" src="images/robe%205.jfif" class="img-thumbnail" alt="...">
-            <div class="bouton-chene"></div>
-            <p class="dorer"> Robes femme Camaieu </p>
-            <a href="vetement.jsp">
-                <button class="btn" type="button">Voir</button>
-                <p class="dorer"> 37 euro</p>
-            </a>
-        </div>
+<section id="basket" class="flex-column-centre">
+    <!--injection carte panier-->
+    <div id="blocTitrePanier" class="flex-start size80">
+        <h2 id="titre-panier">
+            Veuillez ajouter des produits au panier <br/>
+             Pas de produit
+        </h2>
     </div>
+    <div id="basket-fiche" class="flex-around">
+        <div id="injectJs">
+            <div></div>
 
-</div>
+        </div>
+
+    </div>
+</section>
+
 
 <footer>
     <section class="flex-column-centre">
@@ -154,9 +92,9 @@
             <h2 class="titre-reseau">Catégories</h2>
             <div class="lien-footer">
                 <a href="index.jsp">Accueil</a>
-                <a href="#">Commandes</a>
-                <a href="panier.jsp">Panier</a>
-                <a href="contact.jsp">Formulaires</a>
+                <a href="panier.jsp">Commandes</a>
+                <a href="#">Panier</a>
+                <a href="#">Formulaires</a>
             </div>
         </div>
         <div class="bloc-footer">
@@ -189,5 +127,6 @@
         integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
         crossorigin="anonymous"></script>
 </body>
+
 
 

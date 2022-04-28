@@ -33,7 +33,7 @@
     <h1 class="logo-titre"> STAS <br/>
         Le meilleur de la vente en ligne
     </h1>
-    <a id="charriot" href="#" class="flex-column-between">
+    <a id="charriot" href="panier.jsp" class="flex-column-between">
         <i class=" dorer fa-solid fa-cart-arrow-down fa-3x"></i>
         <!--<span id="spanQuantite"></span>-->
         <p class="dorer">Mon panier</p>
@@ -52,7 +52,7 @@
         <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
             <li><a class="dropdown-item" href="vetement.jsp">Vêtements</a></li>
             <li><a class="dropdown-item" href="#">Livres</a></li>
-            <li><a class="dropdown-item" href="#">High-Tech</a></li>
+            <li><a class="dropdown-item" href="high-tech.jsp">High-Tech</a></li>
             <li><a class="dropdown-item" href="#">Bijoux</a></li>
         </ul>
         <a href="#"> About</a>
@@ -83,10 +83,14 @@
     <h2 class="selection">Notre Sélection</h2>
     <img src="images/couronne.png" alt="image de site en ligne">
 </div>
+<br>
+<br>
 <div class="container">
-    <div id="blocCard" class="flex-around">
-        <!--javascript injection carte produit-->
+    <div  class="row flex-around ">
+        <video class="card card-autre" autoplay='autoplay' muted='' loop='infinite' src="images/designer.mp4"> </video>
     </div>
+    <br>
+    <br>
 
     <div class="row flex-around cardib">
         <div class="col-lg cardib">
@@ -149,10 +153,10 @@
         <div class="bloc-footer">
             <h2 class="titre-reseau">Catégories</h2>
             <div class="lien-footer">
-                <a href="#">Accueil</a>
+                <a href="index.jsp">Accueil</a>
                 <a href="#">Commandes</a>
-                <a href="#">Panier</a>
-                <a href="#">Formulaires</a>
+                <a href="panier.jsp">Panier</a>
+                <a href="contact.jsp">Formulaires</a>
             </div>
         </div>
         <div class="bloc-footer">
