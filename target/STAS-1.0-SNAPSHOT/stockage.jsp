@@ -48,7 +48,6 @@
 </table>
 
 <p> Si vous voulez ajouter un article dans le stockage, veuillez cliquer sur le lien</p>
-<a href="addProduit.jsp">ajouter un produit</a>
 
 
 </body>
