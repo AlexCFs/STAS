@@ -9,6 +9,7 @@
 <!DOCTYPE html>
 <html>
 <head>
+    <link rel="stylesheet" href="Css/contact.css">
     <title> Contact</title>
 </head>
 <body>
@@ -33,6 +34,9 @@
                 <input type="submit" value="Envoyer" class="OK"/>
                 <input type="reset" name="effacer" value="EFFACER" class="NOK"/></td>
             </tr>
+            <div>
+                <img src="images/Projet%20stas%20icone.png">
+            </div>
         </table>
     </form>
 </fieldset>
