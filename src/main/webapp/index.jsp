@@ -33,7 +33,7 @@
     <h1 class="logo-titre"> STAS <br/>
         Le meilleur de la vente en ligne
     </h1>
-    <a id="charriot" href="#" class="flex-column-between">
+    <a id="charriot" href="panier.jsp" class="flex-column-between">
         <i class=" dorer fa-solid fa-cart-arrow-down fa-3x"></i>
         <!--<span id="spanQuantite"></span>-->
         <p class="dorer">Mon panier</p>
@@ -153,10 +153,10 @@
         <div class="bloc-footer">
             <h2 class="titre-reseau">Catégories</h2>
             <div class="lien-footer">
-                <a href="#">Accueil</a>
+                <a href="index.jsp">Accueil</a>
                 <a href="#">Commandes</a>
-                <a href="#">Panier</a>
-                <a href="#">Formulaires</a>
+                <a href="panier.jsp">Panier</a>
+                <a href="contact.jsp">Formulaires</a>
             </div>
         </div>
         <div class="bloc-footer">
