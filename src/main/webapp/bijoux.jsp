@@ -8,16 +8,17 @@
     <link rel="icon" type="image/ico" href="images/Projet%20stas%20icone.png">
     <title>Bijoux</title>
 </head>
-<body>
 
-<section>
-    <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
-        <div class="carousel-inner">
-            <div class="carousel-item active">
-                <img class="d-block w-100" src="images/bijoux1.jpg" alt="First slide">
-            </div>
+<body>
+<div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+    <div class="carousel-inner">
+        <div class="carousel-item active">
+            <img class="d-block w-100" src="images/bijoux1.jpg" alt="First slide">
         </div>
     </div>
+</div>
+
+<section>
     <div class="flex-column-around cardib">
         <img src="images/799096C01_RGB.webp"  width="30%" class="img-thumbnail" alt="...">
         <img src="images/799096C01_ABC123_MODEL_eCOM_02_RGB.webp"  width="30%" class="img-thumbnail" alt="...">
@@ -103,6 +104,7 @@
         </a>
     </div>
 </section>
+
 
 </body>
 </html>

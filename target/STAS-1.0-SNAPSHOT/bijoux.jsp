@@ -8,16 +8,36 @@
     <link rel="icon" type="image/ico" href="images/Projet%20stas%20icone.png">
     <title>Bijoux</title>
 </head>
-<body>
 
-<section>
-    <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
-        <div class="carousel-inner">
-            <div class="carousel-item active">
-                <img class="d-block w-100" src="images/bijoux1.jpg" alt="First slide">
-            </div>
+<body>
+<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+    <ol class="carousel-indicators">
+        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+    </ol>
+    <div class="carousel-inner">
+        <div class="carousel-item active">
+            <img class="d-block w-100" src="images/bijoux1.jpg" alt="First slide">
+        </div>
+        <div class="carousel-item">
+            <img class="d-block w-100" src="images/slidebijoux2.jpg" alt="Second slide">
+        </div>
+        <div class="carousel-item">
+            <img class="d-block w-100" src="images/slidebijou3.jpg" alt="Third slide">
         </div>
     </div>
+    <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+    </a>
+    <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+    </a>
+</div>
+
+<section>
     <div class="flex-column-around cardib">
         <img src="images/799096C01_RGB.webp"  width="30%" class="img-thumbnail" alt="...">
         <img src="images/799096C01_ABC123_MODEL_eCOM_02_RGB.webp"  width="30%" class="img-thumbnail" alt="...">
@@ -42,8 +62,8 @@
             Hauteur 14,60mm Largeur 10,40mm
         </h6>
         <div class="flex-column-around div-list-deroulante">
-            <label for="quantiteBijoux" class="dorer"> entrez la quantite</label>
-            <input type="text" id="quantiteBijoux" name="quantiteBijoux" value="">
+            <label for="quantiteBijoux1" class="dorer"> entrez la quantite</label>
+            <input type="text" id="quantiteBijoux1" name="quantiteBijoux" value="">
         </div>
         <a href="#">
             <button class="btn" type="button">Acheter</button>
@@ -69,8 +89,8 @@
             (Je t'aimerai pour toujours et à jamais). Un cadeau symbolisant ce lien indéfectible qui unit une mère à son enfant.
         </h6>
         <div class="flex-column-around div-list-deroulante">
-            <label for="quantiteBijoux" class="dorer"> entrez la quantite</label>
-            <input type="text" id="quantiteBijoux" name="quantiteBijoux" value="">
+            <label for="quantiteBijoux2" class="dorer"> entrez la quantite</label>
+            <input type="text" id="quantiteBijoux2" name="quantiteBijoux" value="">
         </div>
         <a href="#">
             <button class="btn" type="button">Acheter</button>
@@ -95,14 +115,18 @@
 
         </h6>
         <div class="flex-column-around div-list-deroulante">
-            <label for="quantiteBijoux" class="dorer"> entrez la quantite</label>
-            <input type="text" id="quantiteBijoux" name="quantiteBijoux" value="">
+            <label for="quantiteBijoux3" class="dorer"> entrez la quantite</label>
+            <input type="text" id="quantiteBijoux3" name="quantiteBijoux" value="">
         </div>
         <a href="#">
             <button class="btn" type="button">Acheter</button>
         </a>
     </div>
 </section>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
 
 </body>
 </html>
