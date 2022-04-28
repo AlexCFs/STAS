@@ -95,14 +95,19 @@
                 <p id="prixTtc">0</p>
             </div>
             <div>
-                <a id="continueCommande" class="flex-around" href="#">
-                    <button class="btn" type="button">Continuer<i class="fa-solid fa-chevron-right"></i></button>
+                <a class="flex-around" href="#">
+                    <button class="btn dorer" type="button">Continuer<i class="fa-solid fa-chevron-right"></i></button>
                 </a>
             </div>
             <div>
                 <p><i class="fa-solid fa-truck dorer"></i>Livraison sous 3 semaines </p>
             </div>
         </div>
+    </div>
+    <div class="flex-start size80">
+        <a class="continuer" href="index.jsp">
+            <i class="fa-solid fa-chevron-left dorer"></i>Continuer mes achats
+        </a>
     </div>
 </section>
 
