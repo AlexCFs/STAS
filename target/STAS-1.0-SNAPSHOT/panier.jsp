@@ -109,6 +109,41 @@
             <i class="fa-solid fa-chevron-left dorer"></i>Continuer mes achats
         </a>
     </div>
+    <div>
+        <form id="formulaireContact" action="post">
+            <h2 class="flex-centre">Informations Personnelles</h2>
+            <div class="nom-prenom flex-centre">
+                <div class="flex-column-start">
+                    <label for="prenom" class="flex-start">Prénom</label>
+                    <input class="champ" id="prenom" type="text">
+                    <span id="errorPrenom"></span>
+                </div>
+                <div class="flex-column-start">
+                    <label for="nom" class="flex-start">Nom</label>
+                    <input class="champ" id="nom" type="text">
+                    <span id="errorNom"></span>
+                </div>
+            </div>
+            <div class="flex-column-centre">
+                <div class="flex-column-start">
+                    <label for="adresse" class="flex-start">Adresse</label>
+                    <input class="champ" id="adresse" type="text">
+                    <span id="errorAdresse"></span>
+                </div>
+                <div class="flex-column-start">
+                    <label for="ville" class="flex-start">Ville</label>
+                    <input class="champ" id="ville" type="text">
+                    <span id="errorVille"></span>
+                </div>
+                <div class="flex-column-start">
+                    <label for="email" class="flex-start">Email</label>
+                    <input class="champ" id="email" type="email">
+                    <span id="errorEmail"></span>
+                </div>
+                <button class="bouton-commande" type="submit">Commander</button>
+            </div>
+        </form>
+    </div>
 </section>
 
 
