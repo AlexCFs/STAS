@@ -17,7 +17,9 @@
     <title>About</title>
 </head>
 <body>
-<div><i class="fa-thin fa-face-zany dorer"></i></div>
+
+
+<i class="fa-solid fa-book-skull fa-6x"></i>
 
 <script src="https://kit.fontawesome.com/3163bfb407.js" crossorigin="anonymous"></script>
 <script src="Js/index.js"></script>

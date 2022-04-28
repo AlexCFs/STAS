@@ -11,13 +11,16 @@
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
     <link rel="stylesheet" href="Css/Boostrap_css/bootstrap.min.css">
     <link rel="stylesheet" href="Css/modif_css/modif.css">
+    <link rel="stylesheet" href="Css/modif_css/about.css">
     <meta charset=" utf-8"/>
     <title>STAS</title>
     <link rel="icon" type="image/ico" href="images/Projet%20stas%20icone.png">
     <title>About</title>
 </head>
 <body>
-<div><i class="fa-thin fa-face-zany dorer"></i></div>
+
+
+<i class="fa-solid fa-book-skull fa-6x"></i>
 
 <script src="https://kit.fontawesome.com/3163bfb407.js" crossorigin="anonymous"></script>
 <script src="Js/index.js"></script>
