@@ -62,27 +62,19 @@
                     <h2>Produit</h2>
                     <p>couleur</p>
                     <p>0 euro</p>
-                    <p> </p>
+                    <p>Ref:00000000 </p>
+                    <p><i class="fa-solid fa-truck"></i> <br/>en stock</p>
+                </div>
+                <div id="bloc-change-produit" class="flex-around">
+                    <div class="flex-centre">
+                        <button class="bouton-moins">-</button>
+                        <span class="produit-quantite">0</span>
+                        <button class="bouton-plus">+</button>
+                    </div>
+
+
                 </div>
             </div>
-
-        </div>
-
-    </div>
-</section>
-
-
-<section id="basket" class="flex-column-centre">
-    <!--injection carte panier-->
-    <div id="blocTitrePanier" class="flex-start size80">
-        <h2 id="titre-panier">
-            Veuillez ajouter des produits au panier <br/>
-             Pas de produit
-        </h2>
-    </div>
-    <div id="basket-fiche" class="flex-around">
-        <div id="injectJs">
-            <div></div>
 
         </div>
 
