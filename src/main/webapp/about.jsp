@@ -21,6 +21,9 @@
 
 
 <i class="fa-solid fa-book-skull fa-6x"></i>
+<div class="row flex-around ">
+    <video class="card card-autre" autoplay='autoplay' muted='' loop='infinite' src="images/Big%20Explosion%20Effect%20Video%20Mp4%20HD%20Sound.mp4"></video>
+</div>
 
 <script src="https://kit.fontawesome.com/3163bfb407.js" crossorigin="anonymous"></script>
 <script src="Js/index.js"></script>
