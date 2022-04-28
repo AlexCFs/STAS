@@ -51,7 +51,7 @@
         <a href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false"> Toutes nos catégories</a>
         <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
             <li><a class="dropdown-item" href="vetement.jsp">Vêtements</a></li>
-            <li><a class="dropdown-item" href="#">Livres</a></li>
+            <li><a class="dropdown-item" href="livres.jsp">Livres</a></li>
             <li><a class="dropdown-item" href="high-tech.jsp">High-Tech</a></li>
             <li><a class="dropdown-item" href="#">Bijoux</a></li>
         </ul>

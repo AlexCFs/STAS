@@ -49,12 +49,22 @@
     <div id="blocTitrePanier" class="flex-start size80">
         <h2 id="titre-panier">
             Veuillez ajouter des produits au panier <br/>
-             Pas de produit
+            Pas de produit
         </h2>
     </div>
     <div id="basket-fiche" class="flex-around">
         <div id="injectJs">
-            <div></div>
+            <div id="basketProduit" class="flex-around">
+                <div id="blocImage">
+                    <img src="images/presentation.jfif">
+                </div>
+                <div id="blocProduit" class="flex-column-around">
+                    <h2>Produit</h2>
+                    <p>couleur</p>
+                    <p>0 euro</p>
+                    <p> </p>
+                </div>
+            </div>
 
         </div>
 
