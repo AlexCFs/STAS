@@ -83,10 +83,14 @@
     <h2 class="selection">Notre Sélection</h2>
     <img src="images/couronne.png" alt="image de site en ligne">
 </div>
+<br>
+<br>
 <div class="container">
-    <div id="blocCard" class="flex-around">
-        <!--javascript injection carte produit-->
+    <div  class="row flex-around ">
+        <video class="card card-autre" autoplay='autoplay' muted='' loop='infinite' src="images/designer.mp4"> </video>
     </div>
+    <br>
+    <br>
 
     <div class="row flex-around cardib">
         <div class="col-lg cardib">
