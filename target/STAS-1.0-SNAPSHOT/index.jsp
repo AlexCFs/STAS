@@ -85,9 +85,10 @@
 </div>
 <br>
 <br>
+<!--injection vetements-->
 <div class="container">
-    <div  class="row flex-around ">
-        <video class="card card-autre" autoplay='autoplay' muted='' loop='infinite' src="images/designer.mp4"> </video>
+    <div class="row flex-around ">
+        <video class="card card-autre" autoplay='autoplay' muted='' loop='infinite' src="images/designer.mp4"></video>
     </div>
     <br>
     <br>
@@ -123,6 +124,127 @@
     </div>
 
 </div>
+<br>
+<br>
+<!--injection livres -->
+<div class="container">
+    <div class="row flex-around ">
+        <video class="card card-autre" autoplay='autoplay' muted='' loop='infinite' src="images/designer.mp4"></video>
+    </div>
+    <br>
+    <br>
+
+    <div class="row flex-around cardib">
+        <div class="col-lg cardib">
+            <img width="400" height="40" src="images/La-voie-humide.jpg" class="img-thumbnail" alt="...">
+            <div class="bouton-chene"></div>
+            <p class="dorer">La voie humide </p>
+            <a href="livres.jsp">
+                <button class="btn" type="button">Voir</button>
+                <p class="dorer"> 15 euro</p>
+            </a>
+        </div>
+        <div class="col-lg cardib">
+            <img width="400" height="40" src="images/livre2.jpg" class="img-thumbnail" alt="...">
+            <div class="bouton-chene"></div>
+            <p class="dorer"> Le Rouge et le Noir </p>
+            <a href="livres.jsp">
+                <button class="btn" type="button">Voir</button>
+                <p class="dorer"> 16 euro</p>
+            </a>
+        </div>
+        <div class="col-lg cardib">
+            <img width="400" height="40" src="images/livre3.jpg" class="img-thumbnail" alt="...">
+            <div class="bouton-chene"></div>
+            <p class="dorer"> Notre dame de Paris</p>
+            <a href="livres.jsp">
+                <button class="btn" type="button">Voir</button>
+                <p class="dorer"> 22 euro</p>
+            </a>
+        </div>
+    </div>
+</div>
+<br>
+<br>
+<!--injection high-tech -->
+<div class="container">
+    <div class="row flex-around ">
+        <video class="card card-autre" autoplay='autoplay' muted='' loop='infinite' src="images/designer.mp4"></video>
+    </div>
+    <br>
+    <br>
+
+    <div class="row flex-around cardib">
+        <div class="col-lg cardib">
+            <img width="400" height="40" src="images/sony-consoles-playstation-5-ps5.jpg" class="img-thumbnail" alt="...">
+            <div class="bouton-chene"></div>
+            <p class="dorer">SONY console Playstation 5 PS5- Version Disque </p>
+            <a href="high-tech.jsp">
+                <button class="btn" type="button">Voir</button>
+                <p class="dorer"> 700 euro</p>
+            </a>
+        </div>
+        <div class="col-lg cardib">
+            <img width="400" height="40" src="images/phone_1.jpg.jpg" class="img-thumbnail" alt="...">
+            <div class="bouton-chene"></div>
+            <p class="dorer"> iPhone 13 mini </p>
+            <a href="high-tech.jsp">
+                <button class="btn" type="button">Voir</button>
+                <p class="dorer"> 632 euro</p>
+            </a>
+        </div>
+        <div class="col-lg cardib">
+            <img width="400" height="40" src="images/tele1.webp" class="img-thumbnail" alt="...">
+            <div class="bouton-chene"></div>
+            <p class="dorer"> TV QLED Samsung QE75Q60A </p>
+            <a href="high-tech.jsp">
+                <button class="btn" type="button">Voir</button>
+                <p class="dorer"> 1190 euro</p>
+            </a>
+        </div>
+    </div>
+</div>
+<br>
+<br>
+<!--injection bijoux -->
+<div class="container">
+    <div class="row flex-around ">
+        <video class="card card-autre" autoplay='autoplay' muted='' loop='infinite' src="images/designer.mp4"></video>
+    </div>
+    <br>
+    <br>
+
+    <div class="row flex-around cardib">
+        <div class="col-lg cardib">
+            <img width="400" height="40" src="images/799096C01_ABC123_MODEL_eCOM_02_RGB.webp" class="img-thumbnail" alt="...">
+            <div class="bouton-chene"></div>
+            <p class="dorer">Charm Renard aux Yeux Bleus </p>
+            <a href="bijoux.jsp">
+                <button class="btn" type="button">Voir</button>
+                <p class="dorer"> 5099 euro</p>
+            </a>
+        </div>
+        <div class="col-lg cardib">
+            <img width="400" height="40" src="images/bijoux2.jpg" class="img-thumbnail" alt="...">
+            <div class="bouton-chene"></div>
+            <p class="dorer"> Bracelet coulissant Pandora </p>
+            <a href="bijoux.jsp">
+                <button class="btn" type="button">Voir</button>
+                <p class="dorer"> 201 euro</p>
+            </a>
+        </div>
+        <div class="col-lg cardib">
+            <img width="400" height="40" src="images/bijou4.jpg" class="img-thumbnail" alt="...">
+            <div class="bouton-chene"></div>
+            <p class="dorer"> Robe avec tulle à col carré évasé</p>
+            <a href="bijoux.jsp">
+                <button class="btn" type="button">Voir</button>
+                <p class="dorer"> 158 euro</p>
+            </a>
+        </div>
+    </div>
+</div>
+
 
 <footer>
     <section class="flex-column-centre">
