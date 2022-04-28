@@ -229,6 +229,10 @@ svg {
     width: 800px;
     min-height: 50px;
 }
+.card-vra{
+    width: 100px;
+    min-height: 40px;
+}
 
 .titre-card {
     text-align: center;

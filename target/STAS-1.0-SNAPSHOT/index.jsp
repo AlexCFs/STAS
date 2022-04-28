@@ -129,7 +129,7 @@
 <!--injection livres -->
 <div class="container">
     <div class="row flex-around ">
-        <video class="card card-autre" autoplay='autoplay' muted='' loop='infinite' src="images/_Les%20Misérables_%20de%20Hugo%20_%20les%20secrets%20du%20manuscrit.mp4"></video>
+        <video class="card card-vra" autoplay='autoplay' muted='' loop='infinite' src="images/_Les%20Misérables_%20de%20Hugo%20_%20les%20secrets%20du%20manuscrit.mp4"></video>
     </div>
     <br>
     <br>
@@ -185,7 +185,7 @@
             </a>
         </div>
         <div class="col-lg cardib">
-            <img width="400" height="40" src="images/phone_1.jpg.jpg" class="img-thumbnail" alt="...">
+            <img width="400" height="40" src="images/iphone1.jpg" class="img-thumbnail" alt="...">
             <div class="bouton-chene"></div>
             <p class="dorer"> iPhone 13 mini </p>
             <a href="high-tech.jsp">

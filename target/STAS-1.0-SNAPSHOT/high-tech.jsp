@@ -77,7 +77,7 @@
     <br>
     <br>
     <div class="flex-column-around cardib">
-        <img src="images/phone_1.jpg" class="img-thumbnail" alt="...">
+        <img src="images/iphone1.jpg" class="img-thumbnail" alt="...">
         <div class="bouton-chene"><p class="white"> 632 euro</p></div>
         <p class="dorer"> iPhone 13 mini</p>
         <h6> Description :<br/>
