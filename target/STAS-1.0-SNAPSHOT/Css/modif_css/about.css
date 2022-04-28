@@ -13,3 +13,9 @@ body{
 .fa-solid{
     color: white;
 }
+.fa-solid:hover{
+    animation: icon-glitch .2s infinite;
+}
+@keyframes icon-glitch {
+    
+}
