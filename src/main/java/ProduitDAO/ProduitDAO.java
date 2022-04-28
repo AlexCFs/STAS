@@ -23,7 +23,7 @@ public interface ProduitDAO {
 
 
     // delecte selon id
-    public abstract int delete(int id);
+    public abstract void delete(int id);
 
 
 

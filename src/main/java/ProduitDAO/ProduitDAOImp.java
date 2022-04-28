@@ -148,13 +148,56 @@ public class ProduitDAOImp implements ProduitDAO{
 
     @Override
     public int updateProduct(Produit p) {
-        return 0;
+        try {
+            Class.forName("org.mariadb.jdbc.Driver");
+        } catch (ClassNotFoundException e) {
+            e.printStackTrace();
+        }
+
+        initialisation();
+        Statement stat=null;
+        int result =0;
+        try {
+            stat = con.createStatement();
+            String sql = "UPDATE produit SET categorie ='"+p.getCategorie()+"', nomProduit='"+p.getNomProduit()+"', description='"+p.getDescription()+"',prix= '"+p.getPrix()+"',quantite='"+p.getPrix()+"' where idProduit ='"+p.getIdProduit()+"'";
+            result=stat.executeUpdate(sql);
+            System.out.println(result);
+
+
+        } catch (SQLException throwables) {
+            throwables.printStackTrace();
+        }finally{
+            Close(con,stat);
+
+        }
+        return result;
     }
 
     @Override
-    public int delete(int id) {
-        return 0;
+    public void delete(int id) {
+        try {
+            Class.forName("org.mariadb.jdbc.Driver");
+        } catch (ClassNotFoundException e) {
+            e.printStackTrace();
+        }
+        initialisation();
+        Statement stat = null;
+
+        try {
+            stat = con.createStatement();
+            String sql = "DELETE FROM produit WHERE idProduit="+id+"";
+            stat.executeUpdate(sql);
+
+
+        } catch (SQLException throwables) {
+            throwables.printStackTrace();
+        }finally{
+            Close(con,stat);
+
+        }
+
     }
+
 }
 
 
