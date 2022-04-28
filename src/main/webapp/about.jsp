@@ -20,16 +20,15 @@
 
 
 <div class="block">
-    <div class="row flex-around ">
-        <video class="card card-autre" autoplay='autoplay'
-               src="images/Big%20Explosion%20Effect%20Video%20Mp4%20HD%20Sound.mp4"><i
-                class="fa-solid fa-book-skull fa-6x"></i></video>
-        <div class="col-sm-7 text-center">
-            <h1 class=" display-2 text-capitalize text-warning" id="toto">Welcome </h1>
-            <h1>stephaejejkee</h1>
-        </div>
-        <!--<i class="fa-solid fa-book-skull fa-6x"></i>-->
-    </div>
+
+    <video class="card card-autre" autoplay='autoplay'
+           src="images/Big%20Explosion%20Effect%20Video%20Mp4%20HD%20Sound.mp4"><i
+            class="fa-solid fa-book-skull fa-6x"></i></video>
+
+    <h1 class=" display-2 text-capitalize text-warning" id="toto">Welcome </h1>
+    <h1>stephaejejkee</h1>
+    <!--<i class="fa-solid fa-book-skull fa-6x"></i>-->
+
 </div>
 
 <script src="https://kit.fontawesome.com/3163bfb407.js" crossorigin="anonymous"></script>

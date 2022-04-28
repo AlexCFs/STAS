@@ -54,3 +54,7 @@
     z-index: -100;
     transform: translate(-50%, -50%);
 }
+#toto{
+
+    text-shadow: white;
+}
