@@ -13,7 +13,7 @@
 <section>
     <div class="flex-column-around cardib">
         <img src="images/La-voie-humide.jpg" class="img-thumbnail" alt="...">
-        <div class="bouton-chene"><p class="white"> 1000 euro</p></div>
+        <div class="bouton-chene"><p class="black"> 1000 euro</p></div>
         <p class="dorer">La voie humide</p>
         <h6> Description :<br/>
             Ce récit politique et culturel aux antipodes d'une banale autobiographie de star du porno est un témoignage
