@@ -9,8 +9,8 @@
 <html>
 <head>
     <title>StockageDesProduits</title>
-    <link rel="stylesheet" href="Css/Boostrap_css/bootstrap.min.css">
-    <link rel="stylesheet" href="Css/modif_css/modif.css">
+
+
 
 </head>
 <body>
@@ -24,6 +24,7 @@
         <th>description du produit</th>
         <th>prix</th>
         <th>quantité</th>
+        <th>manipuler</th>
 
     </tr>
 
@@ -63,6 +64,15 @@
         </td>
         <td><%=rs.getInt("quantite") %>
         </td>
+        <td>
+            <a href="">
+                <button class="btn" type="button">supprimer</button>
+            </a>
+            <a href="p">
+                <button class="btn" type="button">modifier</button>
+            </a>
+        </td>
+
 
     </tr>
     <%
@@ -79,13 +89,6 @@
 ---%>
 <a href="ajoutProduitForm.jsp">
     <button class="btn" type="button">ajouter</button>
-</a>
-<a href="*">
-    <button class="btn" type="button" onclick="fctSupprimer();">supprimer</button>
-</a>
-
-<a href="---">
-    <button class="btn" type="button">modifier</button>
 </a>
 
 
