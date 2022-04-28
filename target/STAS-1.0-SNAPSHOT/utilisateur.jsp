@@ -28,7 +28,7 @@
         <!--<span id="spanQuantite"></span>-->
         <p class="dorer">Mon panier</p>
     </a>
-    <a href="stockage.jsp">
+    <a href="historiqueAchat.jsp">
         <button class="btn" type="button">Historique d'achat</button>
     </a>
 </section>

@@ -28,10 +28,19 @@ public class mainTest {
         }*/
         //
 
-        System.out.println("-----------tester la table de produit-------------------");
+        /*System.out.println("-----------tester la table de produit-------------------");
         ProduitDAO daoPro1= new ProduitDAOImp();
         Produit p1=new Produit(0, "Bijoux", "bracelet pandora","Description666dbfddu",650, 250);
-        daoPro1.insertProduct(p1);
+        daoPro1.insertProduct(p1);*/
+
+        System.out.println("-----------tester--------");
+        ProduitDAO  daoPro2=new ProduitDAOImp();
+        Produit p2= new Produit(2, "Bijoux", "colliers", "diament rouge", 3050, 32);
+        daoPro2.updateProduct(p2);
+
+
+
+
 
 
     }

@@ -33,7 +33,7 @@
     <h1 class="logo-titre"> STAS <br/>
         Le meilleur de la vente en ligne
     </h1>
-    <a id="charriot" href="#" class="flex-column-between">
+    <a id="charriot" href="panier.jsp" class="flex-column-between">
         <i class=" dorer fa-solid fa-cart-arrow-down fa-3x"></i>
         <!--<span id="spanQuantite"></span>-->
         <p class="dorer">Mon panier</p>
@@ -50,10 +50,10 @@
         <a href="#"> Accueil</a>
         <a href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false"> Toutes nos catégories</a>
         <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-            <li><a class="dropdown-item"  href="vetement.jsp">Vêtements</a></li>
-            <li><a class="dropdown-item"  href="#">Livres</a></li>
-            <li><a class="dropdown-item"  href="#">High-Tech</a></li>
-            <li><a class="dropdown-item"  href="#">Bijoux</a></li>
+            <li><a class="dropdown-item" href="vetement.jsp">Vêtements</a></li>
+            <li><a class="dropdown-item" href="#">Livres</a></li>
+            <li><a class="dropdown-item" href="#">High-Tech</a></li>
+            <li><a class="dropdown-item" href="#">Bijoux</a></li>
         </ul>
         <a href="#"> About</a>
         <a href="contact.jsp"> Contact</a>
@@ -83,22 +83,47 @@
     <h2 class="selection">Notre Sélection</h2>
     <img src="images/couronne.png" alt="image de site en ligne">
 </div>
+<br>
+<br>
 <div class="container">
-    <div id="blocCard" class="flex-around">
-        <!--javascript injection carte produit-->
+    <div  class="row flex-around ">
+        <video class="card card-autre" autoplay='autoplay' muted='' loop='infinite' src="images/designer.mp4"> </video>
     </div>
-    <div class="row">
-        <div class="col">
+    <br>
+    <br>
+
+    <div class="row flex-around cardib">
+        <div class="col-lg cardib">
             <img width="400" height="40" src="images/robe%203.jfif" class="img-thumbnail" alt="...">
+            <div class="bouton-chene"></div>
+            <p class="dorer">Une jolie robe d'allaitement </p>
+            <a href="vetement.jsp">
+                <button class="btn" type="button">Voir</button>
+                <p class="dorer"> 47 euro</p>
+            </a>
         </div>
-        <div class="col">
+        <div class="col-lg cardib">
             <img width="400" height="40" src="images/robe%204.jfif" class="img-thumbnail" alt="...">
+            <div class="bouton-chene"></div>
+            <p class="dorer"> Robe avec tulle à col carré évasé </p>
+            <a href="vetement.jsp">
+                <button class="btn" type="button">Voir</button>
+                <p class="dorer"> 67 euro</p>
+            </a>
         </div>
-        <div class="col">
+        <div class="col-lg cardib">
             <img width="400" height="40" src="images/robe%205.jfif" class="img-thumbnail" alt="...">
+            <div class="bouton-chene"></div>
+            <p class="dorer"> Robes femme Camaieu </p>
+            <a href="vetement.jsp">
+                <button class="btn" type="button">Voir</button>
+                <p class="dorer"> 37 euro</p>
+            </a>
         </div>
     </div>
+
 </div>
+
 <footer>
     <section class="flex-column-centre">
         <div class="flex-centre">
@@ -122,16 +147,16 @@
                 <a href="#">Suivi de commande</a>
                 <a href="#">Livraison</a>
                 <a href="#">Retours</a>
-                <a href="#">Nous contacter</a>
+                <a href="contact.jsp">Nous contacter</a>
             </div>
         </div>
         <div class="bloc-footer">
             <h2 class="titre-reseau">Catégories</h2>
             <div class="lien-footer">
-                <a href="#">Accueil</a>
+                <a href="index.jsp">Accueil</a>
                 <a href="#">Commandes</a>
-                <a href="#">Panier</a>
-                <a href="#">Formulaires</a>
+                <a href="panier.jsp">Panier</a>
+                <a href="contact.jsp">Formulaires</a>
             </div>
         </div>
         <div class="bloc-footer">
