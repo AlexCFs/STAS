@@ -11,6 +11,9 @@
 <html>
 <head>
     <title>creationCompte</title>
+
+    <link rel="stylesheet" href="Css/Boostrap_css/bootstrap.min.css">
+    <link rel="stylesheet" href="Css/modif_css/modif.css">
 </head>
 <body>
 <%
@@ -42,7 +45,14 @@
     dao.insert(c1);
 %>
 
-<h2> l'utilisateur est ajouté dans la base de données </h2>
+<h2> créaction de compte réussie!!!!</h2> <br> <br>
+
+<h2>pour revenir à la page d'accueil</h2>
+<a href="index.jsp">
+    <button class="btn" type="button">page d'accueil</button>
+</a>
+
+
 
 </body>
 </html>
