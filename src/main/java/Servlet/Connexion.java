@@ -52,6 +52,7 @@ public class Connexion extends HttpServlet {
             out.println("<html><body>");
             out.println("<h1>" +message3 + "</h1>");
             out.println("</body></html>");
+            response.sendRedirect("error.jsp");
 
         }
     }
