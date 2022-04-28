@@ -45,21 +45,23 @@
 <br>
 
 <section id="basket" class="flex-column-centre">
-    <!--injection carte panier-->
+    <!--injection titre panier-->
     <div id="blocTitrePanier" class="flex-start size80">
         <h2 id="titre-panier">
             Veuillez ajouter des produits au panier <br/>
             Pas de produit
         </h2>
     </div>
+    <!--fiche complete carte + recapitulatif panier-->
     <div id="basket-fiche" class="flex-around">
+        <!--injection carte panier-->
         <div id="injectJs">
             <div id="basketProduit" class="flex-around">
                 <div id="blocImage">
                     <img src="images/presentation.jfif">
                 </div>
                 <div id="blocProduit" class="flex-column-around">
-                    <h2>Produit</h2>
+                    <h2>Produits</h2>
                     <p>couleur</p>
                     <p>0 euro</p>
                     <p>Ref:00000000 </p>
@@ -71,13 +73,76 @@
                         <span class="produit-quantite">0</span>
                         <button class="bouton-plus">+</button>
                     </div>
-
-
+                    <div><p>0 E</p></div>
+                    <div><i class="fa-solid fa-trash-can dorer"></i></div>
                 </div>
             </div>
-
         </div>
-
+        <!--recapitulatif panier-->
+        <div id="basket-recap">
+            <h2 class="titre-recap dorer">Récapitulatif</h2>
+            <div class="flex-around">
+                <p id="nbArticle"> 0 article </p>
+                <p id="prixArticle">0</p>
+            </div>
+            <div class="flex-around">
+                <p>Livraison</p>
+                <p id="prixLivraison">offert</p>
+            </div>
+            <div class="trait-design"></div>
+            <div class="flex-around">
+                <h3>Total TTC</h3>
+                <p id="prixTtc">0</p>
+            </div>
+            <div>
+                <a class="flex-around" href="#">
+                    <button class="btn dorer" type="button">Continuer<i class="fa-solid fa-chevron-right"></i></button>
+                </a>
+            </div>
+            <div>
+                <p><i class="fa-solid fa-truck dorer"></i>Livraison sous 3 semaines </p>
+            </div>
+        </div>
+    </div>
+    <div class="flex-start size80">
+        <a class="continuer" href="index.jsp">
+            <i class="fa-solid fa-chevron-left dorer"></i>Continuer mes achats
+        </a>
+    </div>
+    <div>
+        <form id="formulaireContact" action="post">
+            <h2 class="flex-centre">Informations Personnelles</h2>
+            <div class="nom-prenom flex-centre">
+                <div class="flex-column-start">
+                    <label for="prenom" class="flex-start">Prénom</label>
+                    <input class="champ" id="prenom" type="text">
+                    <span id="errorPrenom"></span>
+                </div>
+                <div class="flex-column-start">
+                    <label for="nom" class="flex-start">Nom</label>
+                    <input class="champ" id="nom" type="text">
+                    <span id="errorNom"></span>
+                </div>
+            </div>
+            <div class="flex-column-centre">
+                <div class="flex-column-start">
+                    <label for="adresse" class="flex-start">Adresse</label>
+                    <input class="champ" id="adresse" type="text">
+                    <span id="errorAdresse"></span>
+                </div>
+                <div class="flex-column-start">
+                    <label for="ville" class="flex-start">Ville</label>
+                    <input class="champ" id="ville" type="text">
+                    <span id="errorVille"></span>
+                </div>
+                <div class="flex-column-start">
+                    <label for="email" class="flex-start">Email</label>
+                    <input class="champ" id="email" type="email">
+                    <span id="errorEmail"></span>
+                </div>
+                <button class="bouton-commande" type="submit">Commander</button>
+            </div>
+        </form>
     </div>
 </section>
 

@@ -46,7 +46,7 @@
             <label for="quantiteBijoux1" class="dorer"> entrez la quantite</label>
             <input type="text" id="quantiteBijoux1" name="quantiteBijoux" value="">
         </div>
-        <a href="#">
+        <a href="panier.jsp">
             <button class="btn" type="button">Acheter</button>
         </a>
     </div>
@@ -73,7 +73,7 @@
             <label for="quantiteBijoux2" class="dorer"> entrez la quantite</label>
             <input type="text" id="quantiteBijoux2" name="quantiteBijoux" value="">
         </div>
-        <a href="#">
+        <a href="panier.jsp">
             <button class="btn" type="button">Acheter</button>
         </a>
     </div>
@@ -99,7 +99,7 @@
             <label for="quantiteBijoux3" class="dorer"> entrez la quantite</label>
             <input type="text" id="quantiteBijoux3" name="quantiteBijoux" value="">
         </div>
-        <a href="#">
+        <a href="panier.jsp">
             <button class="btn" type="button">Acheter</button>
         </a>
     </div>

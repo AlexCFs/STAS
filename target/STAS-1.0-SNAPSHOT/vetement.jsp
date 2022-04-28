@@ -35,7 +35,7 @@
                 <option value="Rose">Rose</option>
             </select>
         </div>
-        <a href="#">
+        <a href="panier.jsp">
             <button class="btn" type="button">Acheter</button>
         </a>
 
@@ -73,7 +73,7 @@
                 <option value="Rose">Rose</option>
             </select>
         </div>
-        <a href="#">
+        <a href="panier.jsp">
             <button class="btn" type="button">Acheter</button>
         </a>
     </div>
@@ -99,7 +99,7 @@
                 <option value="Rose">Rose</option>
             </select>
         </div>
-        <a href="#">
+        <a href="panier.jsp">
             <button class="btn" type="button">Acheter</button>
         </a>
     </div>
