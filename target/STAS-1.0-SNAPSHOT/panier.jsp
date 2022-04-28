@@ -14,7 +14,7 @@
 <body>
 <section class="flex-around">
     <img width="100" height="100" src="images/Projet stas icone.png">
-    <h1 class="logo-titre"> PANIER 
+    <h1 class="logo-titre"> PANIER
     </h1>
     <a id="charriot" href="#" class="flex-column-between">
         <i class=" dorer fa-solid fa-cart-arrow-down fa-3x"></i>
