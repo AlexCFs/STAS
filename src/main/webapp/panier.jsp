@@ -59,7 +59,7 @@
                     <img src="images/presentation.jfif">
                 </div>
                 <div id="blocProduit" class="flex-column-around">
-                    <h2>Produit</h2>
+                    <h2>Produits</h2>
                     <p>couleur</p>
                     <p>0 euro</p>
                     <p>Ref:00000000 </p>
