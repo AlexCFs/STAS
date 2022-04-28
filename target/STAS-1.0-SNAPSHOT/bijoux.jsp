@@ -8,12 +8,39 @@
     <link rel="icon" type="image/ico" href="images/Projet%20stas%20icone.png">
     <title>Bijoux</title>
 </head>
+
 <body>
+<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+    <ol class="carousel-indicators">
+        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+    </ol>
+    <div class="carousel-inner">
+        <div class="carousel-item active">
+            <img class="d-block w-100" src="images/bijoux1.jpg" alt="First slide">
+        </div>
+        <div class="carousel-item">
+            <img class="d-block w-100" src="images/slidebijoux2.jpg" alt="Second slide">
+        </div>
+        <div class="carousel-item">
+            <img class="d-block w-100" src="images/slidebijou3.jpg" alt="Third slide">
+        </div>
+    </div>
+    <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+    </a>
+    <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+    </a>
+</div>
 
 <section>
     <div class="flex-column-around cardib">
-        <img src="images/799096C01_RGB.webp" class="img-thumbnail" alt="...">
-        <img src="images/799096C01_ABC123_MODEL_eCOM_02_RGB.webp" class="img-thumbnail" alt="...">
+        <img src="images/799096C01_RGB.webp"  width="30%" class="img-thumbnail" alt="...">
+        <img src="images/799096C01_ABC123_MODEL_eCOM_02_RGB.webp"  width="30%" class="img-thumbnail" alt="...">
         <div class="bouton-chene"><p class="black"> 5099 euro</p></div>
         <p class="dorer">Charm Renard aux Yeux Bleus</p>
         <h6> Description :<br/>
@@ -33,9 +60,73 @@
             Métal Argent 925/1000ᵉ
             Dimensions Profondeur 10,40mm
             Hauteur 14,60mm Largeur 10,40mm
+        </h6>
+        <div class="flex-column-around div-list-deroulante">
+            <label for="quantiteBijoux1" class="dorer"> entrez la quantite</label>
+            <input type="text" id="quantiteBijoux1" name="quantiteBijoux" value="">
+        </div>
+        <a href="#">
+            <button class="btn" type="button">Acheter</button>
+        </a>
+    </div>
 
+    <br>
+    <br>
+    <div class="flex-column-around cardib">
+        <img src="images/bijoux2.jpg" width="30% "class="img-thumbnail" alt="...">
+        <div class="bouton-chene"><p class="white"> 201 euro</p></div>
+        <p class="dorer"> Bracelet coulissant Pandora moment avec charm coeurs de l'infini entrelacés </p>
+        <h6> Description :<br/>
+            Ce superbe bracelet maille serpent revisite avec sophistication le bracelet d'amitié classique. Fini main en argent 925/1000e
+            poli, ce bracelet est doté d'un lien amovible et d'un lien fixe, tous deux sertis de pierres scintillantes. Son fermoir
+            coulissant innovant vous permet de le régler facilement à votre taille. Cadeau idéal pour des amis et des âmes sœurs, ce
+            bracelet peut être facilement personnalisé en relevant tout simplement le charm fermoir amovible et en ajoutant vos
+            charms Pandora préférés.
+            <br>
+            <br>
+            Le Charm Cœurs de l'Infini Entrelacés irradie d'amour. Confectionné en argent 925/1000e, ce charm se compose de
+            deux cœurs entrelacés et est gravé des mots : « I love You Forever and ever and ever and ever and ever and ever »
+            (Je t'aimerai pour toujours et à jamais). Un cadeau symbolisant ce lien indéfectible qui unit une mère à son enfant.
+        </h6>
+        <div class="flex-column-around div-list-deroulante">
+            <label for="quantiteBijoux2" class="dorer"> entrez la quantite</label>
+            <input type="text" id="quantiteBijoux2" name="quantiteBijoux" value="">
+        </div>
+        <a href="#">
+            <button class="btn" type="button">Acheter</button>
+        </a>
+    </div>
+    <br>
+    <br>
+    <div class="flex-column-around cardib">
+        <img src="images/bijou4.jpg" class="img-thumbnail" alt="...">
+        <div class="bouton-chene"><p class="white"> 158 euro</p></div>
+        <p class="dorer"> Robe avec tulle à col carré évasé </p>
+        <h6> Description :<br/>
+            Les boucles d'oreilles Mina 3 sont composées de 3 petites pierres et d'une tige longue et fine. ces boucles
+            d'oreilles délicates sont très faciles à porter. Elles sont très légères et ne sont pas trop longues.
+            Elles s'adapteront facilement à un look de tous les jours ou plus sophistiqué!
+            Les boucles d'oreilles sont vendues avec des petits fermoirs en silicone assurant la
+            sécurité de la fermeture.
+            Matériaux: pierres spinelle noire et laiton doré à l'or fin
+            Longueur totale de la boucle: 5 cm
+            Les bijoux Adepte sont réalisés par nos soins au sein de notre atelier.
+
+
+        </h6>
+        <div class="flex-column-around div-list-deroulante">
+            <label for="quantiteBijoux3" class="dorer"> entrez la quantite</label>
+            <input type="text" id="quantiteBijoux3" name="quantiteBijoux" value="">
+        </div>
+        <a href="#">
+            <button class="btn" type="button">Acheter</button>
+        </a>
     </div>
 </section>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
 
 </body>
 </html>
