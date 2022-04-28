@@ -16,6 +16,13 @@
     <title>High-tech</title>
 </head>
 <body>
+<div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+    <div class="carousel-inner">
+        <div class="carousel-item active">
+            <img class="d-block w-100" src="images/ht1.jpg.jpg" alt="First slide">
+        </div>
+    </div>
+</div>
 
 <section>
     <div class="flex-column-around cardib">
@@ -62,78 +69,56 @@
             Salle de jeux Astro (jeu préinstallé sur la console).
         </h6>
         <div class="flex-column-around div-list-deroulante">
-            <label for="couleur" class="dorer"> choisissez la couleur</label>
-            <select name="couleur" id="couleur" autofocus>
-                <option value="Noir">Noir</option>
-                <option value="Rouge">Rouge</option>
-                <option value="Rose">Rose</option>
-            </select>
+            <<div class="flex-column-around div-list-deroulante">
+            <label for="quantiteHT1" class="dorer"> entrez la quantite</label>
+            <input type="text" id="quantiteHT1" name="quantiteHT1" value="">
         </div>
-        <a href="panier.jsp">
-            <button class="btn" type="button">Acheter</button>
-        </a>
+            <a href="#">
+                <button class="btn" type="button">Acheter</button>
+            </a>
+        </div>
 
     </div>
     <br>
     <br>
     <div class="flex-column-around cardib">
-        <img src="images/robe%204.jfif" class="img-thumbnail" alt="...">
-        <div class="bouton-chene"><p class="white"> 67 euro</p></div>
-        <p class="dorer"> Robe avec tulle à col carré évasé </p>
+        <img src="images/ht4_.jpg" class="img-thumbnail" alt="...">
+        <div class="bouton-chene"><p class="white"> 80 euro</p></div>
+        <p class="dorer"> Kindle, maintenant avec un éclairage frontal intégré - Avec publicités, Noir </p>
         <h6> Description :<br/>
-            Couleur: Noir
-            Style: Élégant
-            Type de motif: Unicolore
-            détails: Tulle contrastant
-            Type: Taille resserrée et pan évasé
-            Type du col: Col carré
-            Longueur des manches: Manches longues
-            Type de manches: Classiques
-            Tour de taille: Taille haute
-            Ourlet/finition: Évasé
-            Longueur: Court
-            Type d'ajustement: Coupe régulière
-            Tissu: Haute extensibilité
-            Tissu/matériel: Polyester
-            Composition: 95% Polyester, 5% Élasthanne
-            Instructions d'entretien: Lavage en machine ou nettoyage à sec professionnel
-            Transparent: Non
+            L'option Avec publicités (ou Avec offres spéciales) affiche du contenu sponsorisé sur l'écran de verrouillage de votre appareil ainsi qu'en mode veille. En savoir plus
+            L'éclairage frontal réglable vous permet de lire confortablement pendant des heures, à l'intérieur et à l'extérieur, de jour comme de nuit.
+            Conçu pour la lecture, avec un écran de 167 ppp qui se lit comme une page imprimée, sans reflets, même en plein soleil.
+            Lisez sans distraction. Surlignez des passages, recherchez des définitions, traduisez des mots et ajustez la taille du texte, sans jamais quitter votre page.
         </h6>
         <div class="flex-column-around div-list-deroulante">
-            <label for="couleur" class="dorer"> choisissez la couleur</label>
-            <select name="couleur" id="couleur2">
-                <option value="Noir">Noir</option>
-                <option value="Rouge">Rouge</option>
-                <option value="Rose">Rose</option>
-            </select>
+            <<div class="flex-column-around div-list-deroulante">
+            <label for="quantiteHT2" class="dorer"> entrez la quantite</label>
+            <input type="text" id="quantiteHT2" name="quantiteHT2" value="">
         </div>
-        <a href="panier.jsp">
-            <button class="btn" type="button">Acheter</button>
-        </a>
+            <a href="#">
+                <button class="btn" type="button">Acheter</button>
+            </a>
+        </div>
+
     </div>
     <br>
     <br>
     <div class="flex-column-around cardib">
-        <img src="images/robe%205.jfif" class="img-thumbnail" alt="...">
-        <div class="bouton-chene"><p class="white"> 37 euro</p></div>
+        <img src="images/ht3.jpg" class="img-thumbnail" alt="...">
+        <div class="bouton-chene"><p class="white"> 100 euro</p></div>
         <p class="dorer"> Robes femme Camaieu </p>
         <h6> Descrition : <br/>
-            Une robe confectionnée tout en fluidité avec sa texture fluide en crêpe marocain. Imprimé exclusif, ethnique
-            et qui sent bon les beaux jours : c’est le parti-pris fort de cette capsule Camaieu <3 Sisterhood. Col V et
-            poches, cette robe est l’indispensable d’une silhouette estivale réussie. Pour le coloris ikat ethnique, le
-            mannequin mesure 1.75M et porte une taille M. Pour chaque produit de la capsule Camaieu <3 Sisterhood
-            acheté, 1€ sera reversé à l’association Cœurs de Guerrières, association qui vient en aide aux victimes de
-            violences conjugales.
+            Tablette Fire 7 d'Amazon : tout ce dont vous avez besoin pour regarder Prime Video ou Netflix, rester connecté aux réseaux sociaux et jouer à des jeux amusants comme Candy Crush Saga.
+            Écran IPS 7", mémoire interne de 16 ou 32 Go et possibilité d'ajouter une carte microSD pour un stockage extensible jusqu'à 512 Go.
+            Jusqu'à 7 heures d'autonomie pour lire, naviguer sur Internet, regarder des vidéos et écouter de la musique.
+            Avec Amazon Prime, accédez à Prime Video, Prime Music et Prime Reading sur votre tablette Fire.
         </h6>
         <div class="flex-column-around div-list-deroulante">
-            <label for="couleur" class="dorer"> choisissez la couleur</label>
-            <select name="couleur" id="couleur3">
-                <option value="Noir">Noir</option>
-                <option value="Rouge">Rouge</option>
-                <option value="Rose">Rose</option>
-            </select>
+            <label for="quantiteHT3" class="dorer"> entrez la quantite</label>
+            <input type="text" id="quantiteHT3" name="quantiteHT3" value="">
         </div>
-        <a href="panier.jsp">
+        <a href="#">
             <button class="btn" type="button">Acheter</button>
         </a>
     </div>
