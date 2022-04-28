@@ -10,7 +10,6 @@
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
     <link rel="stylesheet" href="Css/Boostrap_css/bootstrap.min.css">
-    <link rel="stylesheet" href="Css/modif_css/modif.css">
     <link rel="stylesheet" href="Css/modif_css/about.css">
     <meta charset=" utf-8"/>
     <title>STAS</title>
@@ -20,7 +19,18 @@
 <body>
 
 
-<i class="fa-solid fa-book-skull fa-6x"></i>
+<div class="block">
+    <div class="row flex-around ">
+        <video class="card card-autre" autoplay='autoplay'
+               src="images/Big%20Explosion%20Effect%20Video%20Mp4%20HD%20Sound.mp4"><i
+                class="fa-solid fa-book-skull fa-6x"></i></video>
+        <div class="col-sm-7 text-center">
+            <h1 class=" display-2 text-capitalize text-warning" id="toto">Welcome </h1>
+            <h1>stephaejejkee</h1>
+        </div>
+        <!--<i class="fa-solid fa-book-skull fa-6x"></i>-->
+    </div>
+</div>
 
 <script src="https://kit.fontawesome.com/3163bfb407.js" crossorigin="anonymous"></script>
 <script src="Js/index.js"></script>
