@@ -25,8 +25,13 @@
                src="images/Big%20Explosion%20Effect%20Video%20Mp4%20HD%20Sound.mp4"><i
                 class="fa-solid fa-book-skull fa-6x"></i></video>
         <div class="ttt">
-            <h1 class=" text-warning" id="toto">utytuttitititititit</h1>
+            <h1> STAS est une entreprise de commerce en ligne française
+                basée à Bordeaux. Elle est l'un des géants du Web, regroupés sous l'acronyme GAFAM, aux côtés de Google,
+                Apple, Meta et Microsoft.<br/> Créée par Stéphane, Alexandre, Yinghui et Thibaut en juillet 1994,
+                l'entreprise a été introduite en bourse
+                au NASDAQ en avril 2022</h1>
             <i class="fa-solid fa-book-skull fa-6x"></i>
+            <h2> Le roi des pirates ce sera moi <i class="fa-solid fa-skull-crossbones dorer"></i></h2>
         </div>
         <!---->
     </div>
