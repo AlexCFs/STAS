@@ -47,10 +47,7 @@
 <section id="basket" class="flex-column-centre">
     <!--injection titre panier-->
     <div id="blocTitrePanier" class="flex-start size80">
-        <h2 id="titre-panier">
-            Veuillez ajouter des produits au panier <br/>
-            Pas de produit
-        </h2>
+
     </div>
     <!--fiche complete carte + recapitulatif panier-->
     <div id="basket-fiche" class="flex-around">

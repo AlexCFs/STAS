@@ -24,13 +24,13 @@
 </section>
 <nav>
     <div class="flex-around">
-        <a href="#"> Accueil</a>
+        <a href="index.jsp"> Accueil</a>
         <a href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false"> Toutes nos catégories</a>
         <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
             <li><a class="dropdown-item" href="vetement.jsp">Vêtements</a></li>
-            <li><a class="dropdown-item" href="#">Livres</a></li>
-            <li><a class="dropdown-item" href="#">High-Tech</a></li>
-            <li><a class="dropdown-item" href="#">Bijoux</a></li>
+            <li><a class="dropdown-item" href="livres.jsp">Livres</a></li>
+            <li><a class="dropdown-item" href="high-tech.jsp">High-Tech</a></li>
+            <li><a class="dropdown-item" href="bijoux.jsp">Bijoux</a></li>
         </ul>
         <a href="#"> About</a>
         <a href="contact.jsp"> Contact</a>
@@ -47,10 +47,7 @@
 <section id="basket" class="flex-column-centre">
     <!--injection titre panier-->
     <div id="blocTitrePanier" class="flex-start size80">
-        <h2 id="titre-panier">
-            Veuillez ajouter des produits au panier <br/>
-            Pas de produit
-        </h2>
+
     </div>
     <!--fiche complete carte + recapitulatif panier-->
     <div id="basket-fiche" class="flex-around">
