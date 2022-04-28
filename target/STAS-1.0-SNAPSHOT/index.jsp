@@ -129,7 +129,7 @@
 <!--injection livres -->
 <div class="container">
     <div class="row flex-around ">
-        <video class="card card-autre" autoplay='autoplay' muted='' loop='infinite' src="images/designer.mp4"></video>
+        <video class="card card-autre" autoplay='autoplay' muted='' loop='infinite' src="images/_Les%20Misérables_%20de%20Hugo%20_%20les%20secrets%20du%20manuscrit.mp4"></video>
     </div>
     <br>
     <br>
@@ -169,7 +169,7 @@
 <!--injection high-tech -->
 <div class="container">
     <div class="row flex-around ">
-        <video class="card card-autre" autoplay='autoplay' muted='' loop='infinite' src="images/designer.mp4"></video>
+        <video class="card card-autre" autoplay='autoplay' muted='' loop='infinite' src="images/Today's%20High%20Tech%20World,%20Demands%20Simulation.mp4"></video>
     </div>
     <br>
     <br>
@@ -209,7 +209,7 @@
 <!--injection bijoux -->
 <div class="container">
     <div class="row flex-around ">
-        <video class="card card-autre" autoplay='autoplay' muted='' loop='infinite' src="images/designer.mp4"></video>
+        <video class="card card-autre" autoplay='autoplay' muted='' loop='infinite' src="images/Bijoux%20_%20un%20secteur%20qui%20vaut%20son%20pesant%20d'or.mp4"></video>
     </div>
     <br>
     <br>

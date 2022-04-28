@@ -185,7 +185,7 @@
             </a>
         </div>
         <div class="col-lg cardib">
-            <img width="400" height="40" src="images/phone_1.jpg.jpg" class="img-thumbnail" alt="...">
+            <img width="400" height="40" src="images/iphone1.jpg" class="img-thumbnail" alt="...">
             <div class="bouton-chene"></div>
             <p class="dorer"> iPhone 13 mini </p>
             <a href="high-tech.jsp">
