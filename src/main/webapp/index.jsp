@@ -53,7 +53,7 @@
             <li><a class="dropdown-item" href="vetement.jsp">Vêtements</a></li>
             <li><a class="dropdown-item" href="#">Livres</a></li>
             <li><a class="dropdown-item" href="#">High-Tech</a></li>
-            <li><a class="dropdown-item" href="#">Bijoux</a></li>
+            <li><a class="dropdown-item" href="bijoux.jsp">Bijoux</a></li>
         </ul>
         <a href="#"> About</a>
         <a href="contact.jsp"> Contact</a>
