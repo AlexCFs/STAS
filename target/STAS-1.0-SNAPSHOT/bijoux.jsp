@@ -6,7 +6,7 @@
     <link rel="stylesheet" href="Css/modif_css/modif.css">
     <meta charset=" utf-8"/>
     <link rel="icon" type="image/ico" href="images/Projet%20stas%20icone.png">
-    <title>Livres</title>
+    <title>Bijoux</title>
 </head>
 <body>
 

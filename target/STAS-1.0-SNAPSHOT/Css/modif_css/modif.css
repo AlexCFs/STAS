@@ -272,6 +272,10 @@ svg {
     cursor: pointer;
 
 }
+.trait-design{
+    width: 80%;
+    border-bottom: 2px solid #D5C10C;
+}
 
 /*Pour La video*/
 
@@ -406,7 +410,7 @@ select {
     padding: 20px;
 }
 #injectJs{
-   
+
     margin-bottom: 20px;
 }
 #blocImage{
@@ -456,4 +460,25 @@ select {
     font-weight: 400;
     font-family: "Lucida Calligraphy", sans-serif;
     line-height: 1.4em;
+}
+.continuer{
+    width: 80%;
+    text-decoration: none;
+    font-size: larger;
+    font-weight: 400;
+    font-family: "Lucida Calligraphy", sans-serif;
+    color: #D5C10C;
+}
+#continueCommande{
+    text-decoration: none;
+    font-size: large;
+    width: 50%;
+    height: 50px;
+    background-color: #D5C10C;
+    color: white;
+    border: #D5C10C;
+    cursor: pointer;
+}
+#continueCommande:hover{
+    background-color: #868c4d;
 }

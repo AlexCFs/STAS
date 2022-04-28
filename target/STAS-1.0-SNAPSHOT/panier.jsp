@@ -45,21 +45,23 @@
 <br>
 
 <section id="basket" class="flex-column-centre">
-    <!--injection carte panier-->
+    <!--injection titre panier-->
     <div id="blocTitrePanier" class="flex-start size80">
         <h2 id="titre-panier">
             Veuillez ajouter des produits au panier <br/>
             Pas de produit
         </h2>
     </div>
+    <!--fiche complete carte + recapitulatif panier-->
     <div id="basket-fiche" class="flex-around">
+        <!--injection carte panier-->
         <div id="injectJs">
             <div id="basketProduit" class="flex-around">
                 <div id="blocImage">
                     <img src="images/presentation.jfif">
                 </div>
                 <div id="blocProduit" class="flex-column-around">
-                    <h2>Produit</h2>
+                    <h2>Produits</h2>
                     <p>couleur</p>
                     <p>0 euro</p>
                     <p>Ref:00000000 </p>
@@ -71,13 +73,36 @@
                         <span class="produit-quantite">0</span>
                         <button class="bouton-plus">+</button>
                     </div>
-
-
+                    <div><p>0 E</p></div>
+                    <div><i class="fa-solid fa-trash-can dorer"></i></div>
                 </div>
             </div>
-
         </div>
-
+        <!--recapitulatif panier-->
+        <div id="basket-recap">
+            <h2 class="titre-recap dorer">Récapitulatif</h2>
+            <div class="flex-around">
+                <p id="nbArticle"> 0 article </p>
+                <p id="prixArticle">0</p>
+            </div>
+            <div class="flex-around">
+                <p>Livraison</p>
+                <p id="prixLivraison">offert</p>
+            </div>
+            <div class="trait-design"></div>
+            <div class="flex-around">
+                <h3>Total TTC</h3>
+                <p id="prixTtc">0</p>
+            </div>
+            <div>
+                <a id="continueCommande" class="flex-around" href="#">
+                    <button class="btn" type="button">Continuer<i class="fa-solid fa-chevron-right"></i></button>
+                </a>
+            </div>
+            <div>
+                <p><i class="fa-solid fa-truck dorer"></i>Livraison sous 3 semaines </p>
+            </div>
+        </div>
     </div>
 </section>
 
