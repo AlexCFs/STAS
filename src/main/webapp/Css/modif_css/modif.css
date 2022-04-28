@@ -222,6 +222,11 @@ svg {
     width: 450px;
     min-height: 400px;
 }
+.card-autre{
+    width: 800px;
+    min-height: 50px;
+}
+
 .titre-card{
     text-align: center;
     font-family: "Lucida Calligraphy", sans-serif;
@@ -329,6 +334,11 @@ div.lien-footer > a {
     width: 500px;
     min-height: auto;
 }
+.belier{
+    width: 50%;
+    height: 50%;
+
+}
 .titre-card-size{
     height: auto;
 }
@@ -337,4 +347,8 @@ select{
     background-color: beige;
     color: #D5C10C;
 }
-
+/************************************* page vetement **********************************************/
+.vetoutou{
+    background-color: #D5C10C;
+    color: beige;
+}
