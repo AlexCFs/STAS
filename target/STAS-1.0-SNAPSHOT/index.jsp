@@ -1,21 +1,6 @@
 <%@ page contentType="text/html; charset=UTF-8" pageEncoding="UTF-8" %>
 <!DOCTYPE html>
-<!--<html>
-<head>
-<title>JSP - Hello World</title>
-</head>
-<body>
-<h1><%= "Hello World!" %>
-</h1>
-<br/>
-<a href="hello-servlet">Hello Servlet</a>
-<br><br>
-<a href="creerCompte.jsp">lienInscription</a>
-<br><br>
-<a href="testerConnexion.jsp">lienTesterConnexion</a>
-<br><br>
-<a href="ajoutProduitForm.jsp">lienAjoutProduct</a>
-</body>-->
+
 <html lang="fr" data locale="fr-FR">
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
@@ -311,5 +296,5 @@
         integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
         crossorigin="anonymous"></script>
 </body>
-
+</html>
 
