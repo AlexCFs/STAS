@@ -11,7 +11,7 @@
 <html>
 <head>
     <title>creationCompte</title>
-
+    <link rel="stylesheet" href="Css/style.css">
     <link rel="stylesheet" href="Css/Boostrap_css/bootstrap.min.css">
     <link rel="stylesheet" href="Css/modif_css/modif.css">
 </head>
