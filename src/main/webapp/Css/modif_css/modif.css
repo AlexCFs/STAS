@@ -229,6 +229,10 @@ svg {
     width: 800px;
     min-height: 50px;
 }
+.card-vra{
+    width: 500px;
+    min-height: 70px;
+}
 
 .titre-card {
     text-align: center;
@@ -271,6 +275,10 @@ svg {
     color: beige;
     cursor: pointer;
 
+}
+.trait-design{
+    width: 80%;
+    border-bottom: 2px solid #D5C10C;
 }
 
 /*Pour La video*/
@@ -395,7 +403,7 @@ select {
 }
 
 #basket-fiche {
-    width: 60px;
+
     margin-bottom: 20px;
 
 }
@@ -406,7 +414,7 @@ select {
     padding: 20px;
 }
 #injectJs{
-    width: 60%;
+
     margin-bottom: 20px;
 }
 #blocImage{
@@ -457,3 +465,26 @@ select {
     font-family: "Lucida Calligraphy", sans-serif;
     line-height: 1.4em;
 }
+.continuer{
+    width: 80%;
+    text-decoration: none;
+    font-size: larger;
+    font-weight: 400;
+    font-family: "Lucida Calligraphy", sans-serif;
+    color: #D5C10C;
+}
+#continueCommande{
+    text-decoration: none;
+    font-size: large;
+    width: 50%;
+    height: 50px;
+    background-color: #D5C10C;
+    color: white;
+    border: #D5C10C;
+    cursor: pointer;
+}
+#continueCommande:hover{
+    background-color: #868c4d;
+}
+
+

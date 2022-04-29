@@ -69,7 +69,7 @@
                 <option value="Rose">Rose</option>
             </select>
         </div>
-        <a href="#">
+        <a href="panier.jsp">
             <button class="btn" type="button">Acheter</button>
         </a>
 
@@ -77,27 +77,79 @@
     <br>
     <br>
     <div class="flex-column-around cardib">
-        <img src="images/robe%204.jfif" class="img-thumbnail" alt="...">
-        <div class="bouton-chene"><p class="white"> 67 euro</p></div>
-        <p class="dorer"> Robe avec tulle à col carré évasé </p>
+        <img src="images/iphone1.jpg" class="img-thumbnail" alt="...">
+        <div class="bouton-chene"><p class="white"> 632 euro</p></div>
+        <p class="dorer"> iPhone 13 mini</p>
         <h6> Description :<br/>
-            Couleur: Noir
-            Style: Élégant
-            Type de motif: Unicolore
-            détails: Tulle contrastant
-            Type: Taille resserrée et pan évasé
-            Type du col: Col carré
-            Longueur des manches: Manches longues
-            Type de manches: Classiques
-            Tour de taille: Taille haute
-            Ourlet/finition: Évasé
-            Longueur: Court
-            Type d'ajustement: Coupe régulière
-            Tissu: Haute extensibilité
-            Tissu/matériel: Polyester
-            Composition: 95% Polyester, 5% Élasthanne
-            Instructions d'entretien: Lavage en machine ou nettoyage à sec professionnel
-            Transparent: Non
+            Couleur
+
+            Minuit
+            Verrouillage opérateur
+
+            Débloqué tout opérateur
+            Taille écran (pouces)
+
+            5,4
+            Capacité de stockage
+
+            128 Go
+            Modèle
+
+            iPhone 13 mini
+            Marque du processeur
+
+            Apple
+            Nombre de coeurs
+
+            6
+            Megapixels
+
+            12
+            Système d'exploitation
+
+            iOS
+            Résolution
+
+            2340 x 1080
+            Connecteur
+
+            Lightning
+            Série
+
+            iPhone 13
+            eSIM
+
+            Oui
+            Double sim
+
+            Non
+            Port carte SD
+
+            Non
+            Référence constructeur
+
+            A2628
+            Réseau
+
+            5G
+            Date de sortie
+
+            Septembre 2021
+            Type d'appareil photo
+
+            Double (2x)
+            Année de sortie
+
+            2021
+            Pliable
+
+            Non
+            DAS tête (W/kg)
+
+            0.97
+            DAS tronc (W/kg)
+
+            0.98
         </h6>
         <div class="flex-column-around div-list-deroulante">
             <label for="couleur" class="dorer"> choisissez la couleur</label>
@@ -107,23 +159,91 @@
                 <option value="Rose">Rose</option>
             </select>
         </div>
-        <a href="#">
+        <a href="panier.jsp">
             <button class="btn" type="button">Acheter</button>
         </a>
     </div>
     <br>
     <br>
     <div class="flex-column-around cardib">
-        <img src="images/robe%205.jfif" class="img-thumbnail" alt="...">
-        <div class="bouton-chene"><p class="white"> 37 euro</p></div>
-        <p class="dorer"> Robes femme Camaieu </p>
+        <img src="images/tele1.webp" class="img-thumbnail" alt="...">
+        <div class="bouton-chene"><p class="white"> 1190 euro</p></div>
+        <p class="dorer"> TV QLED Samsung QE75Q60A </p>
         <h6> Descrition : <br/>
-            Une robe confectionnée tout en fluidité avec sa texture fluide en crêpe marocain. Imprimé exclusif, ethnique
-            et qui sent bon les beaux jours : c’est le parti-pris fort de cette capsule Camaieu <3 Sisterhood. Col V et
-            poches, cette robe est l’indispensable d’une silhouette estivale réussie. Pour le coloris ikat ethnique, le
-            mannequin mesure 1.75M et porte une taille M. Pour chaque produit de la capsule Camaieu <3 Sisterhood
-            acheté, 1€ sera reversé à l’association Cœurs de Guerrières, association qui vient en aide aux victimes de
-            violences conjugales.
+            Image
+            Taille de l'écran : 190 cm (75")
+            Technologie : QLED, la luminosité est élevée et les contrastes renforcés pour une image incroyablement
+            lumineuse
+            Résolution : 3840 x 2160 pixels conditionnent la qualité d'image. Plus il y a de pixels, plus l'image est
+            riche
+            Définition : 4K, la définition est 4X supérieure à la norme HD et permet un niveau de détail élevé
+            Fréquence de balayage native (Fluidité de l'image) : 50 Hz affichent 50 images par seconde
+            Type de processeur : Quantum Processor 4K
+            HDR : Oui, permet d'augmenter le niveau de détail de l'image et son contraste
+            Son
+            Puissance : 20 Watts
+            Traitement du son : Dolby Digital Plus
+            Barre de son intégrée : Non
+            Connectiques vidéo
+            HDMI 2.0 : 3 ports pour une belle image en 4K
+            HDMI 1.4 : 0
+            Port USB : 2
+            HDMI CEC (Consumer Electronics Control) : Oui, permet d'utiliser la télécommande de votre TV pour piloter
+            tous vos appareils branchés en HDMI disposant de la même norme CEC
+            Péritel : 0
+            Entrée antenne hertzienne : 1
+            Entrée satellite : 1
+            Port Ethernet : 1
+            Slot PCMCIA : 1
+            Connectiques audio
+            Sortie optique : Oui, permet d'envoyer le son de sa TV vers une barre de son en numérique, ou un casque TV
+            avec un câble optique
+            Prise casque : Non
+            Bluetooth : Oui, permet d'envoyer le son de votre TV vers un casque ou une enceinte bluetooth
+            Connectivité
+            WiFi : Oui
+            Compatible Airplay 2 : Oui, une technologie Apple qui permet de partager sans connectique des contenus
+            multimédias ( vidéos, photos, musiques) sur le téléviseur
+            Chromecast intégré : Non
+            Assistant vocal intégré : Google Assistant et Alexa
+            TV connectée (Smart TV)
+            Le saviez-vous ? : Une TV connectée a la capacité de se connecter au réseau internet et permet ainsi de
+            faire des recherches, regarder des films et séries en streaming ou encore jouer à des jeux vidéo en ligne
+            Système d'exploitation : TV connectée Tizen
+            Réception
+            Tuner TNT HD : Oui
+            Tuner satellite HD : Oui
+            Fransat : Oui
+            Tuner câble : Oui
+            Confort d'utilisation
+            Pied(s) : Sur les côtés
+            Support et fixation
+            Norme VESA : 400 x 400 mm
+            Le saviez-vous ? : La norme d'interface VESA est la distance entre les 4 trous de fixation à l'arrière du
+            téléviseur ( distance horizontale x distance verticale). Cette norme est utilisée pour la fixation de
+            téléviseurs et d'autres écrans sur un support mural ou un pied.
+            Vous souhaitez installer votre TV sur votre mur : Voici notre sélection de supports muraux
+            Vous souhaitez poser votre TV sur votre meuble : Voici notre sélection de meuble
+            Vous souhaitez avoir un meuble TV sur mesure : Voici votre configurateur de meuble sur mesure
+            Consommations
+            Energie label 2021 : E
+            Coût annuel en fonctionnement 2021 : 4 euros par an
+            Consommation en fonctionnement HDR 2021 (watts) : 197
+            Contenu du carton
+            Livré avec : Notice, Télécommande universelle à énergie solaire, Adaptateur secteur, Pied
+            Poids et Dimensions
+            LxHxP (avec pied) : 167.7 x 100.6 x 34 cm
+            LxHxP (sans pied) : 167.7 x 96 x 2.7 cm
+            Poids avec pied : 33,3 kg
+            Poids sans pied : 32,1 kg
+            Dimensions du carton l x h x p : 183.4 x 19 x 111 cm
+            Informations et Services
+            Indice de réparabilité : 7,9 /10
+            En savoir plus sur l'indice de réparabilité : Cliquez ici !
+            Fabriqué en : Hongrie
+            Garantie : 2 ans
+            Disponibilité des pièces détachées (données fournisseur) : Pendant 7 ans, à compter de la date d'achat
+            Consommez différemment
         </h6>
         <div class="flex-column-around div-list-deroulante">
             <label for="couleur" class="dorer"> choisissez la couleur</label>
@@ -133,7 +253,7 @@
                 <option value="Rose">Rose</option>
             </select>
         </div>
-        <a href="#">
+        <a href="panier.jsp">
             <button class="btn" type="button">Acheter</button>
         </a>
     </div>

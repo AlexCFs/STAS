@@ -1,10 +1,3 @@
-<%--
-  Created by IntelliJ IDEA.
-  User: Curry
-  Date: 4/27/2022
-  Time: 5:04 PM
-  To change this template use File | Settings | File Templates.
---%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
 <head>
@@ -42,7 +35,7 @@
                 <option value="Rose">Rose</option>
             </select>
         </div>
-        <a href="#">
+        <a href="panier.jsp">
             <button class="btn" type="button">Acheter</button>
         </a>
 
@@ -80,7 +73,7 @@
                 <option value="Rose">Rose</option>
             </select>
         </div>
-        <a href="#">
+        <a href="panier.jsp">
             <button class="btn" type="button">Acheter</button>
         </a>
     </div>
@@ -106,7 +99,7 @@
                 <option value="Rose">Rose</option>
             </select>
         </div>
-        <a href="#">
+        <a href="panier.jsp">
             <button class="btn" type="button">Acheter</button>
         </a>
     </div>
