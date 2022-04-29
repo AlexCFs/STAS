@@ -80,8 +80,9 @@ h1,h2{
     text-align: center;
     font-family: "Lucida Calligraphy", sans-serif;
 }
-.popo{
-    background-position: top right;
-    background-repeat: no-repeat;
-    background-size: 25%;
+
+.belier {
+    width: 30%;
+    height: 30%;
+
 }
