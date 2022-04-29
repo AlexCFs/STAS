@@ -17,7 +17,7 @@
 <h2>Veuillez vous connecter </h2>
 <form action="Connexion" method="post">
 
-    <label id="name">E-mail</label><br>
+    <label id="name">Nom</label><br>
     <input type="text" id="name" name="name" value=""><br>
     <label id="mdp">Mot de pass: </label><br>
     <input type="text" id="mdp" name="mdp" value=""><br>
