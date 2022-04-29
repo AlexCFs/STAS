@@ -26,6 +26,9 @@
     <a href="historiqueAchat.jsp">
         <button class="btn" type="button">Historique d'achat</button>
     </a>
+    <a href="index.jsp">
+        <button class="btn" type="button">Deconnexion</button>
+    </a>
 </section>
 <nav>
     <div class="flex-around">
