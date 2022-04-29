@@ -24,6 +24,7 @@
         <video class="card card-autre" autoplay='autoplay'
                src="images/Big%20Explosion%20Effect%20Video%20Mp4%20HD%20Sound.mp4"><i
                 class="fa-solid fa-book-skull fa-6x"></i></video>
+        <img class="popo" src="images/one-piece-episode-1000-we-are-remake-opening-anime.png">
         <div class="ttt">
             <h1> STAS est une entreprise de commerce en ligne française
                 basée à Bordeaux. Elle est l'un des géants du Web, regroupés sous l'acronyme GAFAM, aux côtés de Google,
