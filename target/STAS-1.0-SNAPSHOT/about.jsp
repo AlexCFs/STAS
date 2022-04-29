@@ -34,6 +34,7 @@
             <i class="fa-solid fa-book-skull fa-6x"></i>
             <h2> Le roi des pirates ce sera moi <i class="fa-solid fa-skull-crossbones dorer"></i></h2>
             <img class="belier" src="images/one-piece-episode-1000-we-are-remake-opening-anime.png">
+            <br>
             <audio src="images/One-Piece-Opening-1-HD-720p-Special-Edition-We-Are_.mp3" controls="controls" autoplay="autoplay" loop="loop"></audio>
         </div>
         <!---->
